@@ -1,6 +1,5 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import Image from "next/image";
-import {BeakerIcon, ClipboardDocumentCheckIcon, ClipboardDocumentIcon, UserGroupIcon} from "@heroicons/react/16/solid";
+import {BeakerIcon, ClipboardDocumentCheckIcon, UserGroupIcon} from "@heroicons/react/16/solid";
 
 const features = [
     {

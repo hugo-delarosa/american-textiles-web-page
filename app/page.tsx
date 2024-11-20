@@ -1,7 +1,4 @@
-import Image from "next/image";
 import HeroSection from "@/app/ui/landing/hero-section";
-import AboutSection from "@/app/ui/landing/about-section";
-import CategoriesSection from "@/app/ui/landing/categories-section";
 import Hero1 from "@/app/ui/landing/hero1";
 import Certification from "@/app/ui/landing/certification";
 import Achievements from "@/app/ui/landing/achievements";
