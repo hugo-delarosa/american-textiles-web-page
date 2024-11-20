@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const navigation = {
   main: [
     { name: 'Inicio', href: '/' },
