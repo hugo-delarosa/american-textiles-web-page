@@ -1,6 +1,38 @@
+@import url("https://use.typekit.net/vmq0msf.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: "granville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "granville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "tablet-gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "tablet-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+}
+
 
 :root {
   --background: #ffffff;
@@ -17,5 +49,4 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary_blue: "#02699A",
+        secondary_blue: "#1F2D53",
+      },
+      fontFamily: {
+        granville: ['granville', "sans-serif"],
+        sans: ['tablet-gothic', ...defaultTheme.fontFamily.sans],
       },
     },
   },
