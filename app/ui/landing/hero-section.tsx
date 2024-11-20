@@ -7,10 +7,8 @@ import {Video} from "@/app/ui/video";
 import Image from "next/image";
 
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Acerca de la Empresa', href: '#' },
+    { name: 'Catálogo', href: '#' },
 ]
 
 export default function HeroSection() {
@@ -50,11 +48,7 @@ export default function HeroSection() {
                         <div className="flex items-center justify-between">
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
-                                <img
-                                    alt=""
-                                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                                    className="h-8 w-auto"
-                                />
+                                <Image src='images/logo_2.svg' alt='Company Logo' width={250} height={200}></Image>
                             </a>
                             <button
                                 type="button"
@@ -77,14 +71,6 @@ export default function HeroSection() {
                                             {item.name}
                                         </a>
                                     ))}
-                                </div>
-                                <div className="py-6">
-                                    <a
-                                        href="#"
-                                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                                    >
-                                        Log in
-                                    </a>
                                 </div>
                             </div>
                         </div>

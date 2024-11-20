@@ -44,12 +44,13 @@ export default function ContactForm() {
                 <rect fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" width="100%" height="100%" strokeWidth={0} />
               </svg>
             </div>
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-              Get in touch
+            <h2 className="text-pretty text-4xl font-granville font-semibold tracking-tight text-gray-900 sm:text-5xl">
+              Contáctanos
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
+              En American, valoramos sus comentarios y estamos dedicados a brindarle el mejor servicio posible.
+              Para asegurarnos de que podamos apoyarle de manera efectiva, por favor proporcione una descripción
+              detallada sobre su idea o proyecto. Estamos aquí para escuchar y nos comprometemos a ofrecer una respuesta oportuna.
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-600">
               <div className="flex gap-x-4">
@@ -93,7 +94,7 @@ export default function ContactForm() {
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label htmlFor="first-name" className="block text-sm/6 font-semibold text-gray-900">
-                  First name
+                  Nombre
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -107,7 +108,7 @@ export default function ContactForm() {
               </div>
               <div>
                 <label htmlFor="last-name" className="block text-sm/6 font-semibold text-gray-900">
-                  Last name
+                  Empresa
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -121,7 +122,7 @@ export default function ContactForm() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="email" className="block text-sm/6 font-semibold text-gray-900">
-                  Email
+                  Correo Electrónico
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -135,7 +136,7 @@ export default function ContactForm() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="phone-number" className="block text-sm/6 font-semibold text-gray-900">
-                  Phone number
+                  Numero de Teléfono
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -149,7 +150,7 @@ export default function ContactForm() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="message" className="block text-sm/6 font-semibold text-gray-900">
-                  Message
+                  Mensaje
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -167,7 +168,7 @@ export default function ContactForm() {
                 type="submit"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Send message
+               Enviar
               </button>
             </div>
           </div>

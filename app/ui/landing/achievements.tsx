@@ -39,7 +39,7 @@ const timeline = [
 export default function Achievements() {
   return (
     <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto  px-6 lg:px-36">
+      <div className="mx-auto  px-6 lg:px-48">
         <h1 className="text-pretty text-5xl font-granville text-primary_blue font-semibold tracking-tight sm:text-7xl pb-9">Logros</h1>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-5">
           {timeline.map((item) => (

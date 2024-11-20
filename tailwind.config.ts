@@ -13,6 +13,7 @@ export default {
         foreground: "var(--foreground)",
         primary_blue: "#02699A",
         secondary_blue: "#1F2D53",
+        gray_theme: "#fdfbfb"
       },
       fontFamily: {
         granville: ['granville', "sans-serif"],
