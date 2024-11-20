@@ -7,8 +7,9 @@ import {Video} from "@/app/ui/video";
 import Image from "next/image";
 
 const navigation = [
-    { name: 'Acerca de la Empresa', href: '#' },
-    { name: 'Catálogo', href: '#' },
+    { name: 'Acerca de la Empresa', href: '/about' },
+    { name: 'Catalogo', href: '#' },
+    { name: 'Contacto', href: '#' },
 ]
 
 export default function HeroSection() {

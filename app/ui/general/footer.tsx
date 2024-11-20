@@ -1,8 +1,11 @@
+import Link from "next/link";
+
 const navigation = {
   main: [
-    { name: 'Inicio', href: '#' },
-    { name: 'Acerca', href: '#' },
+    { name: 'Inicio', href: '/' },
+    { name: 'Acerca de la Empresa', href: '/about' },
     { name: 'Catalogo', href: '#' },
+    { name: 'Contacto', href: '#' },
   ],
   social: [
     {
