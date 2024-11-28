@@ -6,20 +6,18 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
 import Image from "next/image";
 
-const navigation = [
-  { name: 'Acerca de la Empresa', href: '/about' },
-  { name: 'Catalogo', href: '#' },
-  { name: 'Contacto', href: '#' },
-]
 
-export default function Header() {
+export default function Header(props:{
+  logo: {src: string, alt: string},
+  navigation: Array<{name: string, href: string}>
+}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white border border-b-2">
+    <header className="bg-white shadow ">
       <nav aria-label="Global" className="mx-auto flex  items-center justify-between pt-6 pb-1 lg:px-8">
         <Link href={'/'}>
-          <Image src='/images/logo.svg' alt='Company Logo' width={250} height={200} />
+          <Image src={props.logo.src} alt={props.logo.alt} width="250" height="200" />
         </Link>
         <div className="flex lg:hidden">
           <button
@@ -32,8 +30,8 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+          {props.navigation.map((item) => (
+            <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900 hover:text-primary_blue">
               {item.name}
             </Link>
           ))}
@@ -46,8 +44,8 @@ export default function Header() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                alt={props.logo.alt}
+                src={props.logo.src}
                 className="h-8 w-auto"
               />
             </a>
@@ -63,23 +61,13 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                  >
+                {props.navigation.map((item) => (
+
+                  <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900 hover:text-primary_blue">
                     {item.name}
-                  </a>
+                  </Link>
+
                 ))}
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
               </div>
             </div>
           </div>

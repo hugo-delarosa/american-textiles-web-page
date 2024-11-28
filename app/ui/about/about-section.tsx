@@ -1,6 +1,10 @@
 import Image from "next/image";
 
-export default function AboutSection() {
+export default function AboutSection(props:{
+    title: string,
+    paragraphs: Array<string>,
+    images: Array<{src: string, alt: string}>
+}) {
     return (
       <div className="relative isolate -z-10">
           <svg
@@ -44,56 +48,42 @@ export default function AboutSection() {
                   <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                       <div className="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
                           <h1 className="text-pretty text-5xl font-granville font-semibold tracking-tight text-gray-900 sm:text-7xl">
-                              Acerca de American
+                              {props.title}
                           </h1>
-                          <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                              Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949
-                              la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en
-                              diversos sectores como ropa deportiva, lencería y textiles técnicos.
-                          </p>
-                          <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                              Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde
-                              el desarrollo de fórmulas de color y
-                              acabado hasta pruebas físicas, mecánicas, químicas y solidez del color. Utilizando los
-                              métodos y equipos adecuados a cada prueba,
-                              bajo el seguimiento de nuestro personal altamente capacitado.
-                          </p>
-                          <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                              Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso
-                              para asegurar la calidad de nuestros productos.
-                          </p>
+                          {props.paragraphs.map((item) => (
+                            <p
+                              className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
+                                {item}
+                            </p>
+                          ))}
                       </div>
                       <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                           <div
                             className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                               <div className="relative">
-                                  <Image src='/images/about/image_1.jpg' alt='about image 1' width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
+                                  <Image src={props.images[0].src} alt={props.images[0].alt} width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
                                   <div
                                     className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
                               </div>
                           </div>
                           <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                               <div className="relative">
-                                  <Image src='/images/about/image_2.jpg' alt='about image 1' width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
-                                  <div
-                                    className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
+                                  <Image src={props.images[1].src} alt={props.images[1].alt} width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
+                                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
                               </div>
                               <div className="relative">
-                                  <Image src='/images/about/image_3.jpg' alt='about image 1' width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
-                                  <div
-                                    className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
+                                  <Image src={props.images[2].src} alt={props.images[2].alt} width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
+                                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
                               </div>
                           </div>
                           <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                               <div className="relative">
-                                  <Image src='/images/about/image_4.jpg' alt='about image 1' width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
-                                  <div
-                                    className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
+                                  <Image src={props.images[3].src} alt={props.images[3].alt} width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
+                                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
                               </div>
                               <div className="relative">
-                                  <Image src='/images/about/image_5.jpg' alt='about image 1' width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
-                                  <div
-                                    className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
+                                  <Image src={props.images[4].src} alt={props.images[4].alt} width={396} height={528} className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"></Image>
+                                  <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"/>
                               </div>
                           </div>
                       </div>

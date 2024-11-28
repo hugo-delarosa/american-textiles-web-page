@@ -5,3 +5,14 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'american-textiles.sfo3.cdn.digitaloceanspaces.com',
+      },
+    ],
+  },
+}

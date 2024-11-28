@@ -1,0 +1,109 @@
+{
+  "general": {
+    "email": "asd",
+    "phone": "dsa",
+    "name": "American Specialized Textiles",
+    "address": "1234 Main Street, Anytown, USA"
+  },
+  "landing": {
+    "title": "Tejiendo hoy, transformando el mañana ",
+    "subtitle": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
+  },
+  "landing_hero": {
+    "title": "Descubre Nuestros Tejidos",
+    "text": "Explora la rica herencia detrás de nuestras telas, creadas con los más altos estándares de calidad. Descubre cómo hacemos realidad tu visión, un hilo a la vez."
+  },
+  "navigation": {
+    "about": "Acerca de la Empresa",
+    "catalog": "Catálogo",
+    "contact": "Contacto"
+  },
+  "certification": {
+    "title": "Empresa Orgullosamente Certificada",
+    "subtitle": "Nuestros productos cumplen con los más altos estándares de calidad y seguridad.",
+    "text": "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
+    "feature1": {
+      "name": "Laboratorios equipados.",
+      "description": "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color. "
+    },
+    "feature2": {
+      "name": "Personal Capacitado.",
+      "description": "Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.  "
+    },
+    "feature3":{
+      "name": "Procesos y Controles.",
+      "description": "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos.  "
+    }
+  },
+  "about":{
+    "title": "Acerca de American ",
+    "paragraph1": "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
+    "paragraph2": "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color. Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.",
+    "paragraph3": "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos."
+
+  },
+  "mission": {
+    "title": "Misión",
+    "text": "Brindar textiles que apoyan a industrias y marcan una diferencia en la vida cotidiana. Con precisión, tradición e innovación, nuestro objetivo es superar las expectativas de nuestros clientes mientras cuidamos del planeta."
+  },
+  "vision": {
+    "title": "Visión",
+    "text": "Ser líder a nivel global en textiles especializados, mejorando continuamente a través de nuevas tecnologías, prácticas sostenibles y calidad excepcional. Visualizamos un futuro donde nuestros productos contribuyan tanto a las personas como al planeta, construyendo relaciones significativas con clientes a nivel mundial."
+  },
+  "values": {
+      "title": "Nuestros Valores",
+      "text": "Nuestros valores son la base de nuestra cultura y guían nuestras decisiones y acciones. Nos esforzamos por ser una empresa que se preocupa por el bienestar de sus empleados, clientes y el medio ambiente. Nuestros valores son: Calidad, Innovación, Sostenibilidad, Integridad y Respeto.",
+      "value1":{
+        "name": "Innovación y Tradición  ",
+        "description": "Con más de 80 años de experiencia textil, fusionamos nuestra historia con avances modernos para sequir evolucionando y crear nuevas soluciones para los mercados globales.  "
+      },
+      "value2": {
+        "name": "Excelencia ",
+        "description": "Nos comprometemos a dar lo mejor en todo lo que hacemos, desde textiles automotrices hasta telas deportivas. Con nuestra experiencia y tecnología, garantizamos que cada producto cumpla con los más altos estándares. "
+      },
+      "value3": {
+        "name": "Integridad y Responsabilidad ",
+        "description": "Nuestro objetivo es la honestidad y transparencia en nuestras acciones, tratando a todos con respeto y siendo empáticos con la comunidad y el medio ambiente. Actuar con responsabilidad es clave para construir confianza y relaciones duraderas. "
+      },
+      "value4": {
+        "name": "Empatía",
+        "description": "Priorizamos construir relaciones sólidas al comprender genuinamente las necesidades de nuestros clientes. Nuestro obietivo es ofrecer productos personalizados de manera constante. "
+      }
+  },
+  "catalog": {
+    "title": "Catálogo de Productos",
+    "view_category": "Ver Categoría",
+    "category1": {
+      "name": "Automotriz"
+    },
+    "category2": {
+      "name": "Ropa Deportiva"
+    },
+    "category3": {
+      "name": "Lencería"
+    },
+    "category4": {
+      "name": "Textiles Técnicos"
+    }
+  },
+
+  "products": {
+    "auto": {
+      "1": {
+      "name": "Asiento de Auto",
+      "color": "Naranja",
+      "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas."
+      },
+      "2": {
+        "name": "Headliner",
+        "color": "Gris"
+      },
+      "3": {
+        "name": "Volster",
+        "color": "Onix - Salvia"
+      }
+    }
+
+  }
+
+}

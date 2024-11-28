@@ -2,7 +2,7 @@ const navigation = {
   main: [
     { name: 'Inicio', href: '/' },
     { name: 'Acerca de la Empresa', href: '/about' },
-    { name: 'Catalogo', href: '#' },
+    { name: 'Catalogo', href: '/catalog' },
     { name: 'Contacto', href: '#' },
   ],
   social: [

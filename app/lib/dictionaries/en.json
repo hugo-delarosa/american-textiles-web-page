@@ -1,0 +1,17 @@
+{
+  "general": {
+    "email": "sd",
+    "phone": "ds",
+    "name": "American Specialized Textiles",
+    "address": "1234 Main Street, Anytown, USA"
+  },
+  "landing": {
+    "title": "Knitting today, shaping tomorrow",
+    "subtitle": "Our expertise spans four key sectors: Automotive, Sportswear, Intimate Apparel, and Technical Textiles and Automotive, delivering tailored solutions to meet the demands of each market. "
+  },
+  "navigation": {
+    "about": "About",
+    "catalog": "Catalog",
+    "contact": "Contact"
+  }
+}
