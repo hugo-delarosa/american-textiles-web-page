@@ -130,7 +130,11 @@ export const values = {
 }
 
 
-const auto_products = auto(dictionary);
+const auto_products = auto(dictionary).sort(function(){
+  let rand = (Math.random() - 0.5) * 2;
+  console.log(rand)
+  return rand;
+}) ;
 
 export const catalog = {
   title: dictionary.catalog.title,
@@ -145,9 +149,7 @@ export const catalog = {
       href: '#',
       imageSrc: '/images/catalog/image_2.jpg',
       imageAlt: 'auto category',
-      trendingProducts: [
-        auto_products[0],
-      ]
+      trendingProducts: auto_products.slice(0, 3)
     },
     {
       name: dictionary.catalog.category2.name,

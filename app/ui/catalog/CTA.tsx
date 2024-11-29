@@ -1,7 +1,7 @@
 export default function CTA()
 {
   return (
-    <section aria-labelledby="cause-heading">
+    <section aria-labelledby="cause-heading" className="my-7">
       <div className="relative bg-gray-800 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
         <div className="absolute inset-0 overflow-hidden">
           <img

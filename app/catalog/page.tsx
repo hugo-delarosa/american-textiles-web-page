@@ -13,12 +13,15 @@ export default function Catalog() {
         view_category= {catalog.view_category}
       />
       <div className='my-10'>
-        {catalog.categories.map((category) => (
-          <Feature key={category.name} {...category}/>
-        ))}
-      </div>
+        {catalog.categories.map(function(category, index) {
+            if (index % 2 === 0) {
 
-      <CTA/>
+              return <Feature key={category.name} {...category}/>;
+            }
+            return (<div><Feature key={category.name} {...category}/> <CTA/></div>);
+        }
+        )}
+      </div>
       <Footer/>
     </div>
   );
