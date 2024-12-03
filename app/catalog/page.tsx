@@ -19,7 +19,7 @@ export default async function Catalog() {
 
               return <Feature key={index} {...category}/>;
             }
-            return (<div><Feature key={index} {...category}/> <CTA/></div>);
+            return (<div><Feature key={index} {...category}/> <CTA key={index}/></div>);
           }
         )}
       </div>
