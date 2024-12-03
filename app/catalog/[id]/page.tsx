@@ -2,14 +2,8 @@ import {fetchCatalog} from "@/app/lib/products";
 import Filters from "@/app/ui/catalog/category/Filters";
 import {fetchCategoryName} from "@/app/lib/data";
 
-type PageProps = {
-  params: {
-    id: string;
-  };
-};
-
-export default async function Page({ params }: PageProps) {
-  const id = params.id;
+export default async function Page({ params }: { params: { id: string } }) {
+  const {id} = params;
   const [catalog, category_name] = await Promise.all([
     fetchCatalog(id),
     fetchCategoryName(id),

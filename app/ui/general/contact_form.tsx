@@ -81,8 +81,8 @@ export default function ContactForm() {
                   <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="mailto:hello@example.com" className="hover:text-gray-900">
-                    hello@example.com
+                  <a href="mailto:ventas@ameritex.com.mx" className="hover:text-gray-900">
+                    ventas@ameritex.com.mx
                   </a>
                 </dd>
               </div>
