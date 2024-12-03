@@ -4,10 +4,16 @@ import Certification from "@/app/ui/landing/certification";
 import Achievements from "@/app/ui/landing/achievements";
 import ContactForm from "@/app/ui/general/contact_form";
 import Footer from "@/app/ui/general/footer";
-import {navigation, hero, white_logo, hero1, certification} from "@/app/lib/data";
+import {fetchCertification, fetchHero, fetchHero1, fetchNavigation, white_logo} from "@/app/lib/data";
 
 
 export default async function Home() {
+
+  const navigation = await fetchNavigation();
+  const hero = await fetchHero();
+  const hero1 = await fetchHero1();
+  const certification = await fetchCertification();
+
 
   return (
     <div>

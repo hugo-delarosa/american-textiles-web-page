@@ -4,10 +4,16 @@ import Mission from "@/app/ui/about/mission";
 import Footer from "@/app/ui/general/footer";
 import ImageSection from "@/app/ui/about/image_section";
 import Values from "@/app/ui/about/values";
-import {navigation, logo, about_section, mission, vision, about_image_section} from "@/app/lib/data";
+import {logo, about_image_section, fetchNavigation, fetchAboutSection, fetchVision, fetchMission} from "@/app/lib/data";
 
 
-export default function About() {
+export default async function About() {
+
+  const navigation = await fetchNavigation();
+  const about_section = await fetchAboutSection();
+  const mission = await fetchMission();
+  const vision = await fetchVision();
+
   return (
     <div>
       <Header

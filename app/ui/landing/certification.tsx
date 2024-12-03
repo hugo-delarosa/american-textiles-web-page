@@ -1,11 +1,12 @@
 import Image from "next/image";
+import {CertificationFeature} from "@/app/lib/definitions";
 
 export default function Certification(props:{
     title: string,
     text: string,
     subtitle: string,
     image: {src: string, alt: string},
-    features: Array<{name: string, description: string, icon: any}>
+    features: CertificationFeature[]
 }) {
     return (
       <div className="overflow-hidden bg-white pt-20">

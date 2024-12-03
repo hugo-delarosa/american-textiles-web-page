@@ -1,10 +1,12 @@
 import Header from "@/app/ui/general/header";
-import {navigation, logo} from "@/app/lib/data";
-export default function Layout({ children }: { children: React.ReactNode }) {
+import {fetchNavigation, iso_logo} from "@/app/lib/data";
+  export default async function Layout({ children }: { children: React.ReactNode }) {
+  const navigation = await fetchNavigation();
+
   return (
     <div>
       <Header
-        logo={logo}
+        logo={iso_logo}
         navigation={navigation}
       />
       {children}

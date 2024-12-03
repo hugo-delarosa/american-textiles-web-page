@@ -1,9 +1,11 @@
 {
   "general": {
-    "email": "asd",
+    "email": "ventas@ameritex.com.mx",
     "phone": "dsa",
     "name": "American Specialized Textiles",
-    "address": "1234 Main Street, Anytown, USA"
+    "address": "1234 Main Street, Anytown, USA",
+    "title": "American Specialized Textiles",
+    "description": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
   },
   "landing": {
     "title": "Tejiendo hoy, transformando el mañana ",

@@ -4,20 +4,25 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
-import Image from "next/image";
 
 
 export default function Header(props:{
   logo: {src: string, alt: string},
   navigation: Array<{name: string, href: string}>
 }) {
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow ">
-      <nav aria-label="Global" className="mx-auto flex  items-center justify-between pt-6 pb-1 lg:px-8">
-        <Link href={'/'}>
-          <Image src={props.logo.src} alt={props.logo.alt} width="250" height="200" />
+    <header className="bg-white">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+        <Link href="#" className="-m-1.5 p-1.5">
+          <span className="sr-only">Your Company</span>
+          <img
+            alt=""
+            src={props.logo.src}
+            className="h-16 w-auto"
+          />
         </Link>
         <div className="flex lg:hidden">
           <button
@@ -31,7 +36,7 @@ export default function Header(props:{
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {props.navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900 hover:text-primary_blue">
+            <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
               {item.name}
             </Link>
           ))}
@@ -41,14 +46,14 @@ export default function Header(props:{
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                alt={props.logo.alt}
+                alt=""
                 src={props.logo.src}
                 className="h-8 w-auto"
               />
-            </a>
+            </Link>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
@@ -62,11 +67,13 @@ export default function Header(props:{
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {props.navigation.map((item) => (
-
-                  <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900 hover:text-primary_blue">
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  >
                     {item.name}
                   </Link>
-
                 ))}
               </div>
             </div>

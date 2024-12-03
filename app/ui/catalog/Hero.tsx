@@ -1,11 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import {Catalog} from "@/app/lib/definitions";
 
-export default function Hero(props: {
-  title: string;
-  view_category: string;
-  collections: { name: string; href: string; imageSrc: string; imageAlt: string }[]
-}) {
+export default function Hero({ catalog: catalog }: { catalog: Catalog }) {
   return (
     <div className="relative">
       {/* Background image and overlap */}
@@ -31,7 +28,7 @@ export default function Hero(props: {
           <div className="h-48 w-full bg-white"/>
         </div>
         <div className="relative py-32">
-          <h1 className="text-4xl font-bold font-granville tracking-tight text-white sm:text-5xl md:text-6xl">{props.title}</h1>
+          <h1 className="text-4xl font-bold font-granville tracking-tight text-white sm:text-5xl md:text-6xl">{catalog.title}</h1>
         </div>
       </div>
 
@@ -41,21 +38,21 @@ export default function Hero(props: {
         </h2>
         <div
           className="mx-auto grid max-w-md grid-cols-1 gap-y-6 px-4 sm:max-w-7xl sm:grid-cols-4 sm:gap-x-6 sm:gap-y-0 sm:px-6 lg:gap-x-8 lg:px-8">
-          {props.collections.map((collection) => (
+          {catalog.categories.map((collection) => (
             <div
               key={collection.name}
               className="group relative h-96 rounded-lg bg-white shadow-xl sm:aspect-[4/5] sm:h-auto"
             >
               <div aria-hidden="true" className="absolute inset-0 overflow-hidden rounded-lg">
                 <div className="absolute inset-0 overflow-hidden group-hover:opacity-75">
-                  <Image src={collection.imageSrc} alt={collection.imageAlt} className="size-full object-cover" width={200} height={500} />
+                  <Image src={collection.image.src} alt={collection.image.alt} className="size-full object-cover" width={200} height={500} />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"/>
               </div>
               <div className="absolute inset-0 flex items-end rounded-lg p-6">
                 <div>
                   <p aria-hidden="true" className="text-sm text-white">
-                    {props.view_category}
+                    {catalog.view_category}
                   </p>
                   <h3 className="mt-1 font-semibold text-white">
                     <Link href={collection.href}>

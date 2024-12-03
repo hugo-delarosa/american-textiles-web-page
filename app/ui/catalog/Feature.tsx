@@ -1,18 +1,8 @@
 import Image from "next/image";
+import {CatalogCategory} from "@/app/lib/definitions";
 
 export default function Feature(
-  category: {
-    name: string,
-    href: string,
-    trendingProducts: {
-      id: number,
-      name: string,
-      color: string,
-      href: string,
-      imageSrc: string,
-      imageAlt: string
-    }[]
-  }
+  category: CatalogCategory
 ) {
   return (
     <section aria-labelledby="trending-heading">
@@ -31,7 +21,7 @@ export default function Feature(
           {category.trendingProducts.map((product) => (
             <div key={product.id} className="group relative">
               <div className="h-56 w-full overflow-hidden rounded-md group-hover:opacity-85 lg:h-72 xl:h-80">
-                <Image src={product.imageSrc} alt={product.imageAlt} className={"size-full object-cover"} width="500" height="500" />
+                <Image src={product.image.src} alt={product.image.alt} className={"size-full object-cover"} width="500" height="500" />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">
                 <a href={product.href}>
