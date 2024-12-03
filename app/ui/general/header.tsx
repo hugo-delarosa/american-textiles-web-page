@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function Header(props:{
@@ -16,9 +17,11 @@ export default function Header(props:{
   return (
     <header className="bg-white">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-        <Link href="#" className="-m-1.5 p-1.5">
+        <Link href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img
+          <Image
+            width={250}
+            height={200}
             alt=""
             src={props.logo.src}
             className="h-16 w-auto"
@@ -48,7 +51,9 @@ export default function Header(props:{
           <div className="flex items-center justify-between">
             <Link href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              <Image
+                width={64}
+                height={64}
                 alt=""
                 src={props.logo.src}
                 className="h-8 w-auto"

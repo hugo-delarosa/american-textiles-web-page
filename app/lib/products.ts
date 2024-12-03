@@ -2,9 +2,6 @@ import {getDictionary} from "@/app/lib/dictionaries";
 import {language} from "@/app/lib/data";
 import {CategoryCollection} from "@/app/lib/definitions";
 
-type Dictionary = Record<string, any>;
-
-
 export async function fetchCatalog(category: string): Promise<CategoryCollection> {
   switch (category) {
     case 'auto':
@@ -14,9 +11,6 @@ export async function fetchCatalog(category: string): Promise<CategoryCollection
       return fetchAutoCatalog();
   }
 }
-
-
-
 
 export  async function fetchAutoCatalog(): Promise<CategoryCollection> {
   const dictionary = await getDictionary(await language());
@@ -169,20 +163,5 @@ export  async function fetchAutoCatalog(): Promise<CategoryCollection> {
 
       ]
     }
-  )
-}
-
-export function sportswear(dictionary: Dictionary) {
-  return(
-    [
-      {
-        id: 4,
-        name: dictionary.products.sportswear[4].name,
-        color: dictionary.products.sportswear[4].color,
-        href: '#',
-        imageSrc: '/images/catalog/sportswear/costa-rica/a/image_1.jpg',
-        imageAlt: dictionary.products.sportswear[4].name + ' - ' + dictionary.products.sportswear[4].color,
-      },
-    ]
   )
 }

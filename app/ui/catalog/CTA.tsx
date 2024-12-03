@@ -1,12 +1,16 @@
+import Image from "next/image";
+
 export default function CTA()
 {
   return (
     <section aria-labelledby="cause-heading" className="my-7">
       <div className="relative bg-gray-800 px-6 py-32 sm:px-12 sm:py-40 lg:px-16">
         <div className="absolute inset-0 overflow-hidden">
-          <img
+          <Image
+            width={1920}
+            height={1080}
             alt=""
-            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-feature-section-full-width.jpg"
+            src="https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/CTA/_MG_3740.jpg"
             className="size-full object-cover"
           />
         </div>

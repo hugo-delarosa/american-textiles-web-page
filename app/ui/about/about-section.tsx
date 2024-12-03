@@ -50,8 +50,9 @@ export default function AboutSection(props:{
                           <h1 className="text-pretty text-5xl font-granville font-semibold tracking-tight text-gray-900 sm:text-7xl">
                               {props.title}
                           </h1>
-                          {props.paragraphs.map((item) => (
+                          {props.paragraphs.map((item, index) => (
                             <p
+                              key={index}
                               className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
                                 {item}
                             </p>
