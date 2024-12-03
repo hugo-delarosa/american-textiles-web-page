@@ -4,15 +4,11 @@ import Filters from "@/app/ui/catalog/category/Filters";
 import {fetchCategoryName} from "@/app/lib/data";
 
 
-export default async function Page(props: {
-  params: {
-    id: string;
-  };
-}) {
-  const catalog: CategoryCollection = await fetchCatalog(props.params.id);
+export default async function Page({ params }: { params: { id: string } }) {
+  const catalog: CategoryCollection = await fetchCatalog(params.id);
   const products = catalog.products;
   const filters = catalog.filters;
-  const category_name = await fetchCategoryName(props.params.id);
+  const category_name = await fetchCategoryName(params.id);
 
   return (
     <Filters filters={filters} products={products} category_name={category_name}/>
