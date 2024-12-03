@@ -139,7 +139,7 @@ export default function Filters(props: {
       </Dialog>
 
       <main className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-6">
-        <div className="border-b border-gray-200 pb-10 pt-24">
+        <div className="border-b border-gray-200 pb-10 pt-8">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900">{props.category_name}</h1>
         </div>
 
