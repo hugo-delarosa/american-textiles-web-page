@@ -4,22 +4,11 @@ import {Dialog, DialogBackdrop, DialogPanel, Disclosure, DisclosureButton, Discl
 import {XMarkIcon} from "@heroicons/react/24/outline";
 import {ChevronDownIcon, PlusIcon} from "@heroicons/react/16/solid";
 import {useState} from "react";
-import {Product} from "@/app/lib/definitions";
+import {ProductCollection} from "@/app/lib/definitions";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Filters(props: {
-  filters: {
-    id: string;
-    name: string;
-    options: {
-      value: string;
-      label: string;
-    }[];
-  }[],
-  products: Product[];
-  category_name: string;
-}) {
+export default function Filters(props:{ collection: ProductCollection}) {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
   const [selectedFilters, setSelectedFilters] = useState<{ [key: string]: string[] }>({});
 
@@ -35,10 +24,9 @@ export default function Filters(props: {
     });
   };
 
-  const filteredProducts = props.products.filter((product) => {
-    return Object.keys(selectedFilters).every((sectionId) => {
-      if (!selectedFilters[sectionId].length) return true;
-      return selectedFilters[sectionId].includes(product.collection);
+  const filteredProducts = props.collection.products.filter((product) => {
+    return Object.entries(selectedFilters).every(([, values]) => {
+      return values.length === 0 || values.some(value => product.filter_criteria.includes(value));
     });
   });
 
@@ -71,7 +59,7 @@ export default function Filters(props: {
 
             {/* Filters */}
             <form className="mt-4">
-              {props.filters.map((section) => (
+              {props.collection.filters.map((section) => (
                 <Disclosure key={section.name} as="div" className="border-t border-gray-200 pb-4 pt-4">
                   <fieldset>
                     <legend className="w-full px-2">
@@ -140,7 +128,7 @@ export default function Filters(props: {
 
       <main className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-6">
         <div className="border-b border-gray-200 pb-10 pt-8">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900">{props.category_name}</h1>
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900">{props.collection.name}</h1>
         </div>
 
         <div className="pb-24 pt-12 lg:grid lg:grid-cols-3 lg:gap-x-8 xl:grid-cols-4">
@@ -158,7 +146,7 @@ export default function Filters(props: {
 
             <div className="hidden lg:block">
               <form className="space-y-10 divide-y divide-gray-200">
-                {props.filters.map((section, sectionIdx) => (
+                {props.collection.filters.map((section, sectionIdx) => (
                   <div key={section.name} className={sectionIdx === 0 ? '' : 'pt-10'}>
                     <fieldset>
                       <legend className="block text-sm font-medium text-gray-900">{section.name}</legend>
@@ -231,7 +219,7 @@ export default function Filters(props: {
                   />
                   <div className="flex flex-1 flex-col space-y-2 p-4">
                     <h3 className="text-sm font-medium text-gray-900">
-                      <Link href={product.href}>
+                      <Link href={`/catalog/product/${product.id}`}>
                         <span aria-hidden="true" className="absolute inset-0"/>
                         {product.name}
                       </Link>

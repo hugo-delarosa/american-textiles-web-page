@@ -2,7 +2,7 @@ import { Dictionary } from './definitions';
 
 // Create the dictionaries object with specific types
 const dictionaries: Record<string, () => Promise<Dictionary>> = {
-  en: () => import('./dictionaries/en.json').then((module) => module.default),
+  en: () => import('./dictionaries/es.json').then((module) => module.default),
   es: () => import('./dictionaries/es.json').then((module) => module.default),
 };
 

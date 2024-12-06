@@ -63,7 +63,7 @@ export default function HeroSection(props: {
                             </button>
                         </div>
                         <div className="mt-6 flow-root">
-                            <div className="-my-6 divide-y divide-gray-500/25">
+                            <div className="-my-6 divide-y divide-gray-500/50">
                                 <div className="space-y-2 py-6">
                                     {props.navigation.map((item, index) => (
                                         <Link

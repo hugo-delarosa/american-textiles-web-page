@@ -4,15 +4,15 @@ import Mission from "@/app/ui/about/mission";
 import Footer from "@/app/ui/general/footer";
 import ImageSection from "@/app/ui/about/image_section";
 import Values from "@/app/ui/about/values";
-import {logo, about_image_section, fetchNavigation, fetchAboutSection, fetchVision, fetchMission} from "@/app/lib/data";
+import {logo, fetchNavigation, fetchAboutSection} from "@/app/lib/data";
 
 
 export default async function About() {
 
-  const navigation = await fetchNavigation();
-  const about_section = await fetchAboutSection();
-  const mission = await fetchMission();
-  const vision = await fetchVision();
+  const [navigation, about] = await Promise.all([
+    fetchNavigation(),
+    fetchAboutSection()
+  ]);
 
   return (
     <div>
@@ -21,16 +21,16 @@ export default async function About() {
         logo={logo}
       />
       <AboutSection
-        title={about_section.title}
-        paragraphs={about_section.paragraphs}
-        images={about_section.images}
+        title={about.title}
+        paragraphs={about.paragraphs}
+        images={about.images}
       />
       <Mission
-        mission={mission}
-        vision={vision}
+        mission={about.mission}
+        vision={about.vision}
       />
       <ImageSection
-        image={about_image_section.image}
+        image={about.imageSection}
       />
       <Values/>
       <Footer/>

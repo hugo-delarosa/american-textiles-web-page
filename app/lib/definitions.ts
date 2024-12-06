@@ -1,6 +1,3 @@
-
-import * as React from "react";
-
 export type General = {
   email: string;
   phone: string;
@@ -10,32 +7,30 @@ export type General = {
   description: string;
 }
 
-export type Landing = {
-  title: string;
-  subtitle: string;
-  video: string;
-}
-
-export type LandingHero = {
-  title: string;
-  text: string;
-  image: {
-    alt: string;
-    src: string;
-  }
-}
-
 export type Navigation = {
   name: string;
   href: string;
 }[]
 
-
+export type Landing = {
+  title: string;
+  subtitle: string;
+  video: string;
+  hero: {
+    title: string;
+    text: string;
+    image: {
+      alt: string;
+      src: string;
+    }
+  }
+  certification: Certification;
+}
 
 export type CertificationFeature = {
   name: string;
   description: string;
-  icon: React.ForwardRefExoticComponent<React.PropsWithoutRef<React.SVGProps<SVGSVGElement>> & { title?: string, titleId?: string } & React.RefAttributes<SVGSVGElement>>;
+  icon: string;
 }
 
 export type Certification = {
@@ -56,6 +51,14 @@ export type About = {
     alt: string;
     src: string;
   }[];
+  mission: Mission;
+  vision: Vision;
+  values: Values;
+  imageSection: {
+    alt: string;
+    src: string;
+  }
+
 }
 
 export type Mission = {
@@ -80,13 +83,14 @@ export type Values = {
 }
 
 export type CatalogCategory = {
+  id: string;
   name: string;
   href: string;
   image: {
     alt: string;
     src: string;
   }
-  trendingProducts: Product[];
+  trendingProducts?: Product[];
 }
 
 export type Catalog = {
@@ -95,26 +99,27 @@ export type Catalog = {
   categories: CatalogCategory[];
 }
 
+export type ProductCollection = {
+  id: string;
+  name: string;
+  filters: Filter[];
+  products: Product[]
+}
+
 export type Product = {
   id: number;
   name: string;
   color: string;
-  href: string;
   image: {
     alt: string;
     src: string;
- }
+ },
+  images:{
+    alt: string;
+    src: string;
+  }[];
   description?: string;
-  collection: string;
-}
-
-export type Products = {
-  auto: Record<string, Product>;
-}
-
-export type CategoryCollection = {
-  filters: Filter[];
-  products: Product[];
+  filter_criteria: string[];
 }
 
 export type Filter = {
@@ -128,24 +133,9 @@ export type Filter = {
 
 export type Dictionary = {
   general: General;
-  landing: Landing;
-  landing_hero: LandingHero;
   navigation: Navigation;
-  certification: Certification;
+  landing: Landing;
   about: About;
-  mission: Mission;
-  vision: Vision;
-  values: Values;
   catalog: Catalog;
-  products: Products;
-  filters: {
-    collection: {
-      name: string;
-      options: {
-        headliner: string;
-        seat: string;
-        volster: string;
-      }
-    }
-  }
+  products_catalog: ProductCollection[];
 }

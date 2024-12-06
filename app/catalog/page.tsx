@@ -17,9 +17,9 @@ export default async function Catalog() {
         {catalog.categories.map(function (category, index) {
             if (index % 2 === 0) {
 
-              return <Feature key={index} {...category}/>;
+              return <Feature key={index} category={category}/>;
             }
-            return (<div key={index} ><Feature  {...category}/> <CTA/></div>);
+            return (<div key={index} ><Feature  category={category}/> <CTA/></div>);
           }
         )}
       </div>

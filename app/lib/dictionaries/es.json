@@ -7,43 +7,58 @@
     "title": "American Specialized Textiles",
     "description": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
   },
-  "landing": {
-    "title": "Tejiendo hoy, transformando el mañana ",
-    "subtitle": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
-  },
-  "landing_hero": {
-    "title": "Descubre Nuestros Tejidos",
-    "text": "Explora la rica herencia detrás de nuestras telas, creadas con los más altos estándares de calidad. Descubre cómo hacemos realidad tu visión, un hilo a la vez."
-  },
   "navigation": [
     {
-      "name": "Acerca de la Empresa"
+      "name": "Acerca de la Empresa",
+      "href": "/about"
     },
     {
-      "name": "Catálogo de Productos"
+      "name": "Catálogo de Productos",
+      "href": "/catalog"
     },
     {
-      "name": "Contacto"
+      "name": "Contacto",
+      "href": "/contact"
     }
   ],
-  "certification": {
-    "title": "Empresa Orgullosamente Certificada",
-    "subtitle": "Nuestros productos cumplen con los más altos estándares de calidad y seguridad.",
-    "text": "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
-    "features": [
-      {
-        "name": "Laboratorios equipados.",
-        "description": "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color."
-      },
-      {
-        "name": "Personal Capacitado.",
-        "description": "Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.  "
-      },
-      {
-        "name": "Procesos y Controles.",
-        "description": "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos.  "
+  "landing": {
+    "title": "Tejiendo hoy, transformando el mañana ",
+    "subtitle": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado.",
+    "video": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/IMG_6663.mp4",
+    "hero": {
+      "title": "Descubre Nuestros Tejidos",
+      "text": "Explora la rica herencia detrás de nuestras telas, creadas con los más altos estándares de calidad. Descubre cómo hacemos realidad tu visión, un hilo a la vez.",
+      "image": {
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/landing/image_1.jpg",
+        "alt": "About Image Section"
       }
-    ]
+    },
+    "certification": {
+      "title": "Empresa Orgullosamente Certificada",
+      "subtitle": "Nuestros productos cumplen con los más altos estándares de calidad y seguridad.",
+      "text": "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
+      "features": [
+        {
+          "name": "Laboratorios equipados.",
+          "description": "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color.",
+          "icon": "BeakerIcon"
+        },
+        {
+          "name": "Personal Capacitado.",
+          "description": "Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.",
+          "icon": "ClipboardDocumentCheckIcon"
+        },
+        {
+          "name": "Procesos y Controles.",
+          "description": "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos.",
+          "icon": "UserGroupIcon"
+        }
+      ],
+      "image": {
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/landing/image_2.png",
+        "alt": "Certification Image Section"
+      }
+    }
   },
   "about":{
     "title": "Acerca de American ",
@@ -51,118 +66,333 @@
       "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
       "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color. Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.",
       "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos."
-    ]
-  },
-  "mission": {
-    "title": "Misión",
-    "text": "Brindar textiles que apoyan a industrias y marcan una diferencia en la vida cotidiana. Con precisión, tradición e innovación, nuestro objetivo es superar las expectativas de nuestros clientes mientras cuidamos del planeta."
-  },
-  "vision": {
-    "title": "Visión",
-    "text": "Ser líder a nivel global en textiles especializados, mejorando continuamente a través de nuevas tecnologías, prácticas sostenibles y calidad excepcional. Visualizamos un futuro donde nuestros productos contribuyan tanto a las personas como al planeta, construyendo relaciones significativas con clientes a nivel mundial."
-  },
-  "values": {
-    "title": "Nuestros Valores",
-    "text": "Nuestros valores son la base de nuestra cultura y guían nuestras decisiones y acciones. Nos esforzamos por ser una empresa que se preocupa por el bienestar de sus empleados, clientes y el medio ambiente. Nuestros valores son: Calidad, Innovación, Sostenibilidad, Integridad y Respeto.",
-    "values":[
+    ],
+    "images": [
       {
-        "name": "Innovación y Tradición  ",
-        "description": "Con más de 80 años de experiencia textil, fusionamos nuestra historia con avances modernos para sequir evolucionando y crear nuevas soluciones para los mercados globales.  "
+        "alt": "About Image 1",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_6.jpg"
       },
       {
-        "name": "Excelencia ",
-        "description": "Nos comprometemos a dar lo mejor en todo lo que hacemos, desde textiles automotrices hasta telas deportivas. Con nuestra experiencia y tecnología, garantizamos que cada producto cumpla con los más altos estándares. "
+        "alt": "About Image 2",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_2.jpg"
       },
       {
-        "name": "Integridad y Responsabilidad ",
-        "description": "Nuestro objetivo es la honestidad y transparencia en nuestras acciones, tratando a todos con respeto y siendo empáticos con la comunidad y el medio ambiente. Actuar con responsabilidad es clave para construir confianza y relaciones duraderas. "
+        "alt": "About Image 4",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_4.jpg"
       },
       {
-        "name": "Empatía",
-        "description": "Priorizamos construir relaciones sólidas al comprender genuinamente las necesidades de nuestros clientes. Nuestro obietivo es ofrecer productos personalizados de manera constante. "
+        "alt": "About Image 3",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_3.jpg"
+      },
+      {
+        "alt": "About Image 5",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_5.jpg"
       }
-    ]
+    ],
+    "mission": {
+      "title": "Misión",
+      "text": "Brindar textiles que apoyan a industrias y marcan una diferencia en la vida cotidiana. Con precisión, tradición e innovación, nuestro objetivo es superar las expectativas de nuestros clientes mientras cuidamos del planeta."
+    },
+    "vision": {
+      "title": "Visión",
+      "text": "Ser líder a nivel global en textiles especializados, mejorando continuamente a través de nuevas tecnologías, prácticas sostenibles y calidad excepcional. Visualizamos un futuro donde nuestros productos contribuyan tanto a las personas como al planeta, construyendo relaciones significativas con clientes a nivel mundial."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "text": "Nuestros valores son la base de nuestra cultura y guían nuestras decisiones y acciones. Nos esforzamos por ser una empresa que se preocupa por el bienestar de sus empleados, clientes y el medio ambiente. Nuestros valores son: Calidad, Innovación, Sostenibilidad, Integridad y Respeto.",
+      "values":[
+        {
+          "name": "Innovación y Tradición  ",
+          "description": "Con más de 80 años de experiencia textil, fusionamos nuestra historia con avances modernos para sequir evolucionando y crear nuevas soluciones para los mercados globales.  "
+        },
+        {
+          "name": "Excelencia ",
+          "description": "Nos comprometemos a dar lo mejor en todo lo que hacemos, desde textiles automotrices hasta telas deportivas. Con nuestra experiencia y tecnología, garantizamos que cada producto cumpla con los más altos estándares. "
+        },
+        {
+          "name": "Integridad y Responsabilidad ",
+          "description": "Nuestro objetivo es la honestidad y transparencia en nuestras acciones, tratando a todos con respeto y siendo empáticos con la comunidad y el medio ambiente. Actuar con responsabilidad es clave para construir confianza y relaciones duraderas. "
+        },
+        {
+          "name": "Empatía",
+          "description": "Priorizamos construir relaciones sólidas al comprender genuinamente las necesidades de nuestros clientes. Nuestro obietivo es ofrecer productos personalizados de manera constante. "
+        }
+      ]
+    },
+    "imageSection": {
+      "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_1.jpg",
+      "alt": "About Image Section"
+    }
   },
   "catalog": {
     "title": "Catálogo de Productos",
     "view_category": "Ver Categoría",
     "categories": [
-        {
-            "name": "Automotriz"
-        },
-        {
-            "name": "Ropa Deportiva"
-        },
-        {
-            "name": "Lencería"
-        },
-        {
-            "name": "Textiles Técnicos"
+      {
+        "id": "auto",
+        "name": "Automotriz",
+        "href": "/catalog/auto",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_2.jpg",
+          "alt": "Automotriz"
         }
+      },
+      {
+        "id": "sportswear",
+        "name": "Ropa Deportiva",
+        "href": "/catalog/sportswear",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_3.jpg",
+          "alt": "Ropa Deportiva"
+        }
+      },
+      {
+        "id": "lingerie",
+        "name": "Lencería",
+        "href": "/catalog/lingerie",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_4.jpg",
+          "alt": "Lencería"
+        }
+      },
+      {
+        "id": "technical",
+        "name": "Textiles Técnicos",
+        "href": "/catalog/technical",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_5.jpg",
+          "alt": "Textiles Técnicos"
+        }
+      }
     ]
   },
-  "products": {
-    "auto": {
-      "1": {
-        "name": "Headliner",
-        "color": "Gris",
-        "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas."
-      },
-      "2": {
-        "name": "Headliner",
-        "color": "Laminado"
-      },
-      "3": {
-        "name": "Asiento",
-        "color": "Bamboo"
-      },
-      "4": {
-        "name": "Asiento",
-        "color": "Negro"
-      },
-      "5": {
-        "name": "Asiento",
-        "color": "Naranja"
-      },
-      "6": {
-        "name": "Asiento",
-        "color": "Teal"
-      },
-      "7": {
-        "name": "Asiento",
-        "color": "Viscosa"
-      },
-      "8": {
-        "name": "Volster",
-        "color": "Gaelita - Mole"
-      },
-      "9": {
-        "name": "Volster",
-        "color": "Galena - Clay"
-      },
-      "10": {
-        "name": "Volster",
-        "color": "Onix - Salvia"
-      },
-      "11": {
-        "name": "Volster",
-        "color": "Onix - Tangerine"
-      },
-      "12": {
-        "name": "Volster",
-        "color": "Onix - Timelapse"
-      }
+  "products_catalog": [
+    {
+      "id": "auto",
+      "name": "Automotriz",
+      "filters": [
+        {
+          "id": "use",
+          "name": "Usos",
+          "options": [
+            {
+              "value": "bolster",
+              "label": "Bolster"
+            },
+            {
+              "value": "headliner",
+              "label": "Headliner"
+            },
+            {
+              "value": "seat",
+              "label": "Asiento"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": 1,
+          "name": "Headliner",
+          "color": "Gris",
+          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "image": {
+            "alt": "Headliner - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg"
+            },
+            {
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_2.jpg"
+            },
+            {
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_3.jpg"
+            },
+            {
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_4.jpg"
+            },
+            {
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["headliner"]
+        },
+        {
+          "id": 2,
+          "name": "Headliner",
+          "color": "Laminado",
+          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "image": {
+            "alt": "Headliner - Laminado",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_1.jpg"
+          },
+          "images": [
+            {
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_1.jpg"
+            },
+            {
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_2.jpg"
+            },
+            {
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_3.jpg"
+            },
+            {
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["headliner"]
+        },
+        {
+          "id": 3,
+          "name": "Asiento",
+          "color": "Bamboo",
+          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "image": {
+            "alt": "Asiento - Bamboo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_1.jpg"
+          },
+          "images": [
+            {
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_1.jpg"
+            },
+            {
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_2.jpg"
+            },
+            {
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_3.jpg"
+            },
+            {
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
+        },
+        {
+          "id": 4,
+          "name": "Asiento",
+          "color": "Negro",
+          "description": "",
+          "image": {
+            "alt": "Asiento - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_1.jpg"
+            },
+            {
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_2.jpg"
+            },
+            {
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_3.jpg"
+            },
+            {
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_4.jpg"
+            },{
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_5.jpg"
+            },
+            {
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_6.jpg"
+            },
+            {
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_7.jpg"
+            }
+          ],
+          "filter_criteria":["seat"]
+        },
+        {
+          "id": 5,
+          "name": "Asiento",
+          "color": "Naranja",
+          "description": "",
+          "image": {
+            "alt": "Asiento - Naranja",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_1.jpg"
+          },
+          "images": [
+            {
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_2.jpg"
+            },
+            {
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_3.jpg"
+            },
+            {
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_4.jpg"
+            },
+            {
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_5.jpg"
+            },
+            {
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
+        },
+        {
+          "id": 6,
+          "name": "Asiento",
+          "color": "Teal",
+          "description": "",
+          "image": {
+            "alt": "Asiento - Teal",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_1.jpg"
+          },
+          "images": [
+            {
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_1.jpg"
+            },
+            {
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_2.jpg"
+            },
+            {
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_3.jpg"
+            },
+            {
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_4.jpg"
+            },
+            {
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_5.jpg"
+            },
+            {
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
+        }
+      ]
     }
-  },
-  "filters": {
-    "collection": {
-      "name": "Colecciones",
-      "options":{
-        "headliner": "Headliner",
-        "seat": "Asiento",
-        "volster": "Volster"
-      }
-    }
-  }
-
+  ]
 }

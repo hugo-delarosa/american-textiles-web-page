@@ -1,9 +1,7 @@
 import Image from "next/image";
 import {CatalogCategory} from "@/app/lib/definitions";
 
-export default function Feature(
-  category: CatalogCategory
-) {
+export default function Feature({category}  : {category: CatalogCategory}) {
   return (
     <section aria-labelledby="trending-heading">
       <div className="mx-auto max-w-7xl px-4 pt-24 sm:px-6 sm:pt-14 lg:px-8 ">
@@ -18,13 +16,13 @@ export default function Feature(
         </div>
 
         <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8">
-          {category.trendingProducts.map((product) => (
+          {category.trendingProducts?.map((product) => (
             <div key={product.id} className="group relative">
               <div className="h-56 w-full overflow-hidden rounded-md group-hover:opacity-85 lg:h-72 xl:h-80">
                 <Image src={product.image.src} alt={product.image.alt} className={"size-full object-cover"} width="500" height="500" />
               </div>
               <h3 className="mt-4 text-sm text-gray-700">
-                <a href={product.href}>
+                <a href={`/catalog/product/${product.id}`}>
                   <span className="absolute inset-0"/>
                   {product.name}
                 </a>
