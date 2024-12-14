@@ -7,11 +7,11 @@ export default function Hero({ catalog: catalog }: { catalog: Catalog }) {
     <div className="relative">
       {/* Background image and overlap */}
       <div aria-hidden="true" className="absolute inset-0 hidden sm:flex sm:flex-col">
-        <div className="relative w-full flex-1 bg-gray-800">
+        <div className="relative w-full flex-1 bg-gray-500">
           <div className="absolute inset-0 overflow-hidden">
-            <Image src='/images/catalog/image_1.jpg' alt='Catalog Image' width={768} height={1024} className="size-full object-cover" />
+            <Image src={catalog.image.src} alt={catalog.image.alt} width={768} height={1024} className="size-full object-cover" />
           </div>
-          <div className="absolute inset-0 bg-gray-900 opacity-50"/>
+          <div className="absolute inset-0 bg-gray-900 opacity-10"/>
         </div>
         <div className="h-32 w-full bg-white md:h-40 lg:h-48"/>
       </div>
@@ -19,11 +19,11 @@ export default function Hero({ catalog: catalog }: { catalog: Catalog }) {
       <div className="relative mx-auto max-w-3xl px-4 pb-96 text-center sm:px-6 sm:pb-0 lg:px-8">
         {/* Background image and overlap */}
         <div aria-hidden="true" className="absolute inset-0 flex flex-col sm:hidden">
-          <div className="relative w-full flex-1 bg-gray-800">
+          <div className="relative w-full flex-1 bg-gray-500">
             <div className="absolute inset-0 overflow-hidden">
-              <Image src='/images/catalog/image_1.jpg' alt='Catalog Image' width={768} height={1024} className="size-full object-cover" />
+              <Image src={catalog.image.src} alt={catalog.image.alt} width={768} height={1024} className="size-full object-cover" />
             </div>
-            <div className="absolute inset-0 bg-gray-900 opacity-50"/>
+            <div className="absolute inset-0 bg-gray-900 opacity-10"/>
           </div>
           <div className="h-48 w-full bg-white"/>
         </div>

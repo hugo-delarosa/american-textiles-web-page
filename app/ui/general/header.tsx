@@ -16,7 +16,7 @@ export default function Header(props:{
 
   return (
     <header className="bg-white shadow">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+      <nav aria-label="Global" className="mx-auto flex items-center justify-between p-3 lg:px-8">
         <Link href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
           <Image
@@ -39,7 +39,7 @@ export default function Header(props:{
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {props.navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+            <Link key={item.name} href={item.href} className="text-lg font-semibold text-gray-900">
               {item.name}
             </Link>
           ))}

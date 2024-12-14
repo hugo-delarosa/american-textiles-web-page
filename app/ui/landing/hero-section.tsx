@@ -24,7 +24,7 @@ export default function HeroSection(props: {
                     <div className="flex lg:flex-1">
                         <Link href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">American Specialized Textiles </span>
-                            <Image src={props.white_logo.src} alt={props.white_logo.alt} width={250} height={200}></Image>
+                            <Image src={props.white_logo.src} alt={props.white_logo.alt} width={250} height={200} className="h-16 w-auto"></Image>
                         </Link>
                     </div>
                     <div className="flex lg:hidden">
@@ -39,7 +39,7 @@ export default function HeroSection(props: {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-12">
                         {props.navigation.map((item, index) => (
-                          <Link key={index} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                          <Link key={index} href={item.href} className="text-lg font-semibold leading-6 text-white">
                             {item.name}
                           </Link>
                         ))}
@@ -84,15 +84,19 @@ export default function HeroSection(props: {
             <div className="relative isolate overflow-hidden pt-14 bg-gray-900">
                 <Video fileName={props.video} />
 
-                <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                <div className="mx-auto w-full py-32 sm:py-48 lg:py-56">
 
-                    <div className="text-center">
-                        <h1 className="text-balance font-granville text-3xl font-bold tracking-tight text-white sm:text-7xl">
-                            {props.title}
-                        </h1>
-                        <p className="mt-6 text-lg leading-8 text-gray-300 p-3 md:text-2xl">
-                            {props.subtitle}
-                        </p>
+                    <div className="text-center flex justify-center bg-gray-900/30 rounded p-3">
+                        <div className="max-w-2xl ">
+                            <h1
+                              className="text-balance font-granville text-3xl font-bold tracking-tight text-white sm:text-7xl">
+                                {props.title}
+                            </h1>
+                            <p className="mt-6 text-lg leading-8 text-gray-200 p-3 md:text-2xl">
+                                {props.subtitle}
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>

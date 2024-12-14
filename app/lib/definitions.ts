@@ -96,6 +96,10 @@ export type CatalogCategory = {
 export type Catalog = {
   title: string;
   view_category: string;
+  image: {
+    src: string;
+    alt: string;
+  }
   categories: CatalogCategory[];
 }
 
@@ -110,6 +114,7 @@ export type Product = {
   id: number;
   name: string;
   color: string;
+  href: string;
   image: {
     alt: string;
     src: string;
@@ -117,8 +122,13 @@ export type Product = {
   images:{
     alt: string;
     src: string;
+    id: number;
   }[];
   description?: string;
+  details?: {
+    name: string;
+    items: string[];
+  }[];
   filter_criteria: string[];
 }
 

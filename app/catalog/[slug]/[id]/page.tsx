@@ -10,52 +10,8 @@ import {
 import { MinusIcon, PlusIcon} from "@heroicons/react/16/solid";
 import Image from "next/image";
 import Link from "next/link";
+import {fetchProduct} from "@/app/lib/products";
 
-
-
-const product = {
-  name: 'Zip Tote Basket',
-  price: '$140',
-  rating: 4,
-  images: [
-    {
-      id: 1,
-      name: 'Angled view',
-      src: 'https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
-    },
-    {
-      id: 2,
-      name: 'Angled view',
-      src: 'https://tailwindui.com/plus/img/ecommerce-images/product-page-03-product-01.jpg',
-      alt: 'Angled front view with bag zipped and handles upright.',
-    },
-    // More images...
-  ],
-  colors: [
-    { name: 'Washed Black', bgColor: 'bg-gray-700', selectedColor: 'ring-gray-700' },
-    { name: 'White', bgColor: 'bg-white', selectedColor: 'ring-gray-400' },
-    { name: 'Washed Gray', bgColor: 'bg-gray-500', selectedColor: 'ring-gray-500' },
-  ],
-  description: `
-    <p>The Zip Tote Basket is the perfect midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.</p>
-  `,
-  details: [
-    {
-      name: 'Features',
-      items: [
-        'Multiple strap configurations',
-        'Spacious interior with top zip',
-        'Leather handle and tabs',
-        'Interior dividers',
-        'Stainless strap loops',
-        'Double stitched construction',
-        'Water-resistant',
-      ],
-    },
-    // More sections...
-  ],
-}
 const relatedProducts = [
   {
     id: 1,
@@ -68,7 +24,9 @@ const relatedProducts = [
   },
   // More products...
 ]
-export default function Page() {
+export default async function Page(props: { params: Promise<{ slug: string, id: number }> }) {
+  const { slug, id  } = await props.params;
+  const product = await fetchProduct(slug, id);
     return (
       <main className="mx-auto max-w-7xl sm:px-6 sm:pt-16 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
@@ -82,15 +40,15 @@ export default function Page() {
                   {product.images.map((image) => (
                     <Tab
                       key={image.id}
-                      className="group relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-indigo-500/50 focus:ring-offset-4"
+                      className="group relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-primary_blue/50 focus:ring-offset-4"
                     >
-                      <span className="sr-only">{image.name}</span>
+                      <span className="sr-only">{image.alt}</span>
                       <span className="absolute inset-0 overflow-hidden rounded-md">
-                        <Image width={1920} height={1080} alt="" src={image.src} className="size-full object-cover"/>
+                        <Image width={300} height={300} alt="" src={image.src} className="size-full object-cover"/>
                       </span>
                       <span
                         aria-hidden="true"
-                        className="pointer-events-none absolute inset-0 rounded-md ring-2 ring-transparent ring-offset-2 group-data-[selected]:ring-indigo-500"
+                        className="pointer-events-none absolute inset-0 rounded-md ring-2 ring-transparent ring-offset-2 group-data-[selected]:ring-primary_blue"
                       />
                     </Tab>
                   ))}
@@ -100,7 +58,7 @@ export default function Page() {
               <TabPanels>
                 {product.images.map((image) => (
                   <TabPanel key={image.id}>
-                    <Image width={300} height={300} alt={image.alt} src={image.src} className="aspect-square w-full object-cover sm:rounded-lg"/>
+                    <Image width={1920} height={1080} alt={image.alt} src={image.src} className="aspect-square w-full object-cover sm:rounded-lg"/>
                   </TabPanel>
                 ))}
               </TabPanels>
@@ -117,10 +75,7 @@ export default function Page() {
               <div className="mt-6">
                 <h3 className="sr-only">Description</h3>
 
-                <div
-                  dangerouslySetInnerHTML={{__html: product.description}}
-                  className="space-y-6 text-base text-gray-700"
-                />
+                <p>{product.description}</p>
               </div>
 
               <section aria-labelledby="details-heading" className="mt-12">
@@ -129,7 +84,7 @@ export default function Page() {
                 </h2>
 
                 <div className="divide-y divide-gray-200 border-t">
-                  {product.details.map((detail) => (
+                  {product.details?.map((detail) => (
                     <Disclosure key={detail.name} as="div">
                       <h3>
                         <DisclosureButton

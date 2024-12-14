@@ -24,7 +24,7 @@
   "landing": {
     "title": "Tejiendo hoy, transformando el mañana ",
     "subtitle": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado.",
-    "video": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/IMG_6663.mp4",
+    "video": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/Home.mp4",
     "hero": {
       "title": "Descubre Nuestros Tejidos",
       "text": "Explora la rica herencia detrás de nuestras telas, creadas con los más altos estándares de calidad. Descubre cómo hacemos realidad tu visión, un hilo a la vez.",
@@ -127,6 +127,10 @@
   "catalog": {
     "title": "Catálogo de Productos",
     "view_category": "Ver Categoría",
+    "image": {
+      "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_1.jpg",
+      "alt": "Catálogo de Productos"
+    },
     "categories": [
       {
         "id": "auto",
@@ -196,28 +200,34 @@
           "name": "Headliner",
           "color": "Gris",
           "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "href": "/catalog/auto/1",
           "image": {
             "alt": "Headliner - Gris",
             "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg"
           },
           "images": [
             {
+              "id": 1,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg"
             },
             {
+                "id": 2,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_2.jpg"
             },
             {
+              "id": 3,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_3.jpg"
             },
             {
+                "id": 4,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_4.jpg"
             },
             {
+                "id": 5,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_5.jpg"
             }
@@ -229,24 +239,29 @@
           "name": "Headliner",
           "color": "Laminado",
           "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "href": "/catalog/auto/2",
           "image": {
             "alt": "Headliner - Laminado",
             "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_1.jpg"
           },
           "images": [
             {
+              "id": 1,
               "alt": "Headliner - Laminado",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_1.jpg"
             },
             {
+                "id": 2,
               "alt": "Headliner - Laminado",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_2.jpg"
             },
             {
+                "id": 3,
               "alt": "Headliner - Laminado",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_3.jpg"
             },
             {
+                "id": 4,
               "alt": "Headliner - Laminado",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_4.jpg"
             }
@@ -258,24 +273,29 @@
           "name": "Asiento",
           "color": "Bamboo",
           "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "href": "/catalog/auto/3",
           "image": {
             "alt": "Asiento - Bamboo",
             "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_1.jpg"
           },
           "images": [
             {
+                "id": 1,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_1.jpg"
             },
             {
+                "id": 2,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_2.jpg"
             },
             {
+                "id": 3,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_3.jpg"
             },
             {
+                "id": 4,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_4.jpg"
             }
@@ -287,35 +307,44 @@
           "name": "Asiento",
           "color": "Negro",
           "description": "",
+          "href": "/catalog/auto/4",
           "image": {
             "alt": "Asiento - Negro",
             "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_1.jpg"
           },
           "images": [
             {
+              "id": 1,
               "alt": "Asiento - Negro",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_1.jpg"
             },
             {
+              "id": 2,
               "alt": "Asiento - Negro",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_2.jpg"
             },
             {
+              "id": 3,
               "alt": "Asiento - Negro",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_3.jpg"
             },
             {
+              "id":  4,
               "alt": "Asiento - Negro",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_4.jpg"
-            },{
+            },
+            {
+              "id": 5,
               "alt": "Asiento - Negro",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_5.jpg"
             },
             {
+              "id": 6,
               "alt": "Asiento - Negro",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_6.jpg"
             },
             {
+              "id": 7,
               "alt": "Asiento - Negro",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_7.jpg"
             }
@@ -327,28 +356,34 @@
           "name": "Asiento",
           "color": "Naranja",
           "description": "",
+          "href": "/catalog/auto/5",
           "image": {
             "alt": "Asiento - Naranja",
             "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_1.jpg"
           },
           "images": [
             {
+              "id": 1,
               "alt": "Asiento - Naranja",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_2.jpg"
             },
             {
+              "id": 2,
               "alt": "Asiento - Naranja",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_3.jpg"
             },
             {
+              "id": 3,
               "alt": "Asiento - Naranja",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_4.jpg"
             },
             {
+                "id": 4,
               "alt": "Asiento - Naranja",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_5.jpg"
             },
             {
+                "id": 5,
               "alt": "Asiento - Naranja",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_6.jpg"
             }
@@ -360,37 +395,68 @@
           "name": "Asiento",
           "color": "Teal",
           "description": "",
+          "href": "/catalog/auto/6",
           "image": {
             "alt": "Asiento - Teal",
             "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_1.jpg"
           },
           "images": [
             {
+                "id": 1,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_1.jpg"
             },
             {
+                "id": 2,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_2.jpg"
             },
             {
+                "id": 3,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_3.jpg"
             },
             {
+                "id": 4,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_4.jpg"
             },
             {
+                "id": 5,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_5.jpg"
             },
             {
+                "id": 6,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_6.jpg"
             }
           ],
           "filter_criteria": ["seat"]
+        },
+        {
+          "id": 7,
+            "name": "Asiento",
+            "color": "Viscosa",
+            "description": "",
+            "href": "/catalog/auto/7",
+            "image": {
+              "alt": "Asiento - Viscosa",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_1.jpg"
+            },
+            "images": [
+              {
+                "id": 1,
+                "alt": "Asiento - Viscosa",
+                "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_1.jpg"
+              },
+              {
+                "id": 2,
+                "alt": "Asiento - Viscosa",
+                "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_2.jpg"
+              }
+            ],
+            "filter_criteria": ["seat"]
         }
       ]
     }

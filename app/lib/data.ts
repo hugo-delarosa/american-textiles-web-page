@@ -13,7 +13,7 @@ import {
 export const logo = {
   alt: 'Company Logo',
   height: 200,
-  src: 'https://american-textiles.sfo3.cdn.digitaloceanspaces.com/logo.svg',
+  src: 'https://american-textiles.sfo3.cdn.digitaloceanspaces.com/logo_04.svg',
   width: 250
 }
 export const iso_logo = {
@@ -22,7 +22,6 @@ export const iso_logo = {
   src: 'https://american-textiles.sfo3.cdn.digitaloceanspaces.com/isotype.svg',
   width: 250
 }
-
 export const white_logo = {
   alt: 'Company Logo',
   height: 200,
@@ -49,7 +48,6 @@ export async function fetchLanding(): Promise<Landing> {
   const dictionary = await getDictionary(await language());
   return dictionary.landing;
 }
-
 
 export async function fetchAboutSection(): Promise<About> {
   const dictionary = await getDictionary(await language());

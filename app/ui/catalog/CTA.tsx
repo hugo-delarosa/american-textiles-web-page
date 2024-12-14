@@ -10,7 +10,7 @@ export default function CTA()
             width={1920}
             height={1080}
             alt=""
-            src="https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/CTA/_MG_3740.jpg"
+            src="https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/CTA/CTA_image_3.jpg"
             className="size-full object-cover"
           />
         </div>

@@ -219,7 +219,7 @@ export default function Filters(props:{ collection: ProductCollection}) {
                   />
                   <div className="flex flex-1 flex-col space-y-2 p-4">
                     <h3 className="text-sm font-medium text-gray-900">
-                      <Link href={`/catalog/product/${product.id}`}>
+                      <Link href={product.href}>
                         <span aria-hidden="true" className="absolute inset-0"/>
                         {product.name}
                       </Link>
