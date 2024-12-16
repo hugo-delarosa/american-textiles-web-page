@@ -5,18 +5,19 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
 import Image from "next/image";
+import {Navigation} from "@/app/lib/definitions";
 
 
 export default function Header(props:{
   logo: {src: string, alt: string},
-  navigation: Array<{name: string, href: string}>
+  navigation: Navigation
 }) {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <header className="bg-white shadow">
-      <nav aria-label="Global" className="mx-auto flex items-center justify-between p-3 lg:px-8">
+      <nav aria-label="Global" className="mx-auto flex items-center justify-between p-6 lg:px-8">
         <Link href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
           <Image

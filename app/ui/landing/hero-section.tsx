@@ -20,11 +20,11 @@ export default function HeroSection(props: {
     return (
         <div className="bg-gray-900">
             <header className="absolute inset-x-0 top-0 z-50">
-                <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
+                <nav aria-label="Global" className="flex items-center justify-between p-3 lg:px-8">
                     <div className="flex lg:flex-1">
                         <Link href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">American Specialized Textiles </span>
-                            <Image src={props.white_logo.src} alt={props.white_logo.alt} width={250} height={200} className="h-16 w-auto"></Image>
+                            <Image src={props.white_logo.src} alt={props.white_logo.alt} width={250} height={200} className="h-24 w-auto"></Image>
                         </Link>
                     </div>
                     <div className="flex lg:hidden">

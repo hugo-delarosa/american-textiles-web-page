@@ -59,11 +59,11 @@ export async function fetchCatalogPage(): Promise<Catalog> {
   const auto_category = await fetchCatalog('auto');
   const auto_products = auto_category.products.sort(function () {
     return (Math.random() - 0.5) * 2;
-  });
+  }).slice(0,3);
   const sportswear_category = await fetchCatalog('sportswear');
   const sportswear_products = sportswear_category.products.sort(function () {
     return (Math.random() - 0.5) * 2;
-  });
+  }).slice(0,6);
   const lingerie_category = await fetchCatalog('lingerie');
   const lingerie_products = lingerie_category.products.sort(function () {
     return (Math.random() - 0.5) * 2;

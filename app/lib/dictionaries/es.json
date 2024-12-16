@@ -1,9 +1,9 @@
 {
   "general": {
     "email": "ventas@ameritex.com.mx",
-    "phone": "dsa",
+    "phone": "+52 55 5699 2225",
     "name": "American Specialized Textiles",
-    "address": "1234 Main Street, Anytown, USA",
+    "address": "Av. Via Morelos 68, Rústica Xalostoc, Benito Juárez Xalostoc, 55340 Ecatepec de Morelos, Méx., México",
     "title": "American Specialized Textiles",
     "description": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
   },
@@ -212,7 +212,7 @@
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg"
             },
             {
-                "id": 2,
+              "id": 2,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_2.jpg"
             },
@@ -222,12 +222,12 @@
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_3.jpg"
             },
             {
-                "id": 4,
+              "id": 4,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_4.jpg"
             },
             {
-                "id": 5,
+              "id": 5,
               "alt": "Headliner - Gris",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_5.jpg"
             }
@@ -251,17 +251,17 @@
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_1.jpg"
             },
             {
-                "id": 2,
+              "id": 2,
               "alt": "Headliner - Laminado",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_2.jpg"
             },
             {
-                "id": 3,
+              "id": 3,
               "alt": "Headliner - Laminado",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_3.jpg"
             },
             {
-                "id": 4,
+              "id": 4,
               "alt": "Headliner - Laminado",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_4.jpg"
             }
@@ -280,22 +280,22 @@
           },
           "images": [
             {
-                "id": 1,
+              "id": 1,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_1.jpg"
             },
             {
-                "id": 2,
+              "id": 2,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_2.jpg"
             },
             {
-                "id": 3,
+              "id": 3,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_3.jpg"
             },
             {
-                "id": 4,
+              "id": 4,
               "alt": "Asiento - Bamboo",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_4.jpg"
             }
@@ -378,12 +378,12 @@
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_4.jpg"
             },
             {
-                "id": 4,
+              "id": 4,
               "alt": "Asiento - Naranja",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_5.jpg"
             },
             {
-                "id": 5,
+              "id": 5,
               "alt": "Asiento - Naranja",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_6.jpg"
             }
@@ -402,32 +402,32 @@
           },
           "images": [
             {
-                "id": 1,
+              "id": 1,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_1.jpg"
             },
             {
-                "id": 2,
+              "id": 2,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_2.jpg"
             },
             {
-                "id": 3,
+              "id": 3,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_3.jpg"
             },
             {
-                "id": 4,
+              "id": 4,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_4.jpg"
             },
             {
-                "id": 5,
+              "id": 5,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_5.jpg"
             },
             {
-                "id": 6,
+              "id": 6,
               "alt": "Asiento - Teal",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_6.jpg"
             }
@@ -436,29 +436,960 @@
         },
         {
           "id": 7,
-            "name": "Asiento",
-            "color": "Viscosa",
-            "description": "",
-            "href": "/catalog/auto/7",
-            "image": {
+          "name": "Asiento",
+          "color": "Viscosa",
+          "description": "",
+          "href": "/catalog/auto/7",
+          "image": {
+            "alt": "Asiento - Viscosa",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
               "alt": "Asiento - Viscosa",
               "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_1.jpg"
             },
-            "images": [
-              {
-                "id": 1,
-                "alt": "Asiento - Viscosa",
-                "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_1.jpg"
-              },
-              {
-                "id": 2,
-                "alt": "Asiento - Viscosa",
-                "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_2.jpg"
-              }
-            ],
-            "filter_criteria": ["seat"]
+            {
+              "id": 2,
+              "alt": "Asiento - Viscosa",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_2.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
         }
       ]
+    },
+    {
+      "id": "sportswear",
+      "name": "Ropa Deportiva",
+      "filters": [
+        {
+          "id": "color",
+          "name": "Color",
+          "options": [
+            {
+              "value": "green",
+              "label": "Verde"
+            },
+            {
+              "value": "gray",
+              "label": "Gris"
+            },
+            {
+              "value": "red",
+              "label": "Rojo"
+            },
+            {
+              "value": "blue",
+              "label": "Azul"
+            },
+            {
+              "value": "black",
+              "label": "Negro"
+            },
+            {
+              "value": "yellow",
+              "label": "Amarillo"
+            },
+            {
+              "value": "teal",
+              "label": "Teal"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": 1,
+          "name": "Costa Rica",
+          "color": "A",
+          "href": "/catalog/sportswear/1",
+          "image": {
+            "alt": "Costa Rica - A",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["blue"]
+        },
+        {
+          "id": 2,
+          "name": "Costa Rica",
+          "color": "AC",
+          "href": "/catalog/sportswear/2",
+          "image": {
+            "alt": "Costa Rica - AC",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["blue"]
+        },
+        {
+          "id": 3,
+          "name": "Costa Rica",
+          "color": "Gris",
+          "href": "/catalog/sportswear/3",
+          "image": {
+            "alt": "Costa Rica - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["gray"]
+        },
+        {
+          "id": 4,
+          "name": "Costa Rica",
+          "color": "Negro",
+          "href": "/catalog/sportswear/4",
+          "image": {
+            "alt": "Costa Rica - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["black"]
+        },
+        {
+          "id": 5,
+          "name": "Monaco",
+          "color": "Afelpado - Azul",
+          "href": "/catalog/sportswear/5",
+          "image": {
+            "alt": "Monaco Afelpado - Azul",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco Afelpado - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco Afelpado - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco Afelpado - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco Afelpado - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["blue"]
+        },
+        {
+          "id": 6,
+          "name": "Monaco",
+          "color": "Afelpado - Beige",
+          "href": "/catalog/sportswear/6",
+          "image": {
+            "alt": "Monaco Afelpado - Beige",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco Afelpado - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco Afelpado - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco Afelpado - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco Afelpado - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["beige"]
+        },
+        {
+          "id": 7,
+          "name": "Monaco",
+          "color": "Afelpado - Negro",
+          "href": "/catalog/sportswear/7",
+          "image": {
+            "alt": "Monaco Afelpado - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco Afelpado - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco Afelpado - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco Afelpado - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco Afelpado - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["black"]
+        },
+        {
+          "id": 8,
+          "name": "Monaco",
+          "color": "Afelpado - Rojo",
+          "href": "/catalog/sportswear/8",
+          "image": {
+            "alt": "Monaco Afelpado - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco Afelpado - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco Afelpado - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco Afelpado - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco Afelpado - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["red"]
+        },
+        {
+          "id": 9,
+          "name": "SL 32",
+          "color": "Azul",
+          "href": "/catalog/sportswear/9",
+          "image": {
+            "alt": "SL 32 - Azul",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["blue"]
+        },
+        {
+          "id": 10,
+          "name": "SL 32",
+          "color": "Gris",
+          "href": "/catalog/sportswear/10",
+          "image": {
+            "alt": "SL 32 - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["gray"]
+        },
+        {
+          "id": 11,
+          "name": "SL 32",
+          "color": "Negro",
+          "href": "/catalog/sportswear/11",
+          "image": {
+            "alt": "SL 32 - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_6.jpg"
+            }
+          ],
+          "filter_criteria": [
+            "black"
+          ]
+        },
+        {
+          "id": 12,
+          "name": "SL 32",
+          "color": "Rojo",
+          "href": "/catalog/sportswear/12",
+          "image": {
+            "alt": "SL 32 - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["red"]
+        },
+        {
+          "id": 13,
+          "name": "SL 32",
+          "color": "Teal",
+          "href": "/catalog/sportswear/13",
+          "image": {
+            "alt": "SL 32 - Teal",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["teal"]
+        },
+        {
+          "id": 14,
+          "name": "SL Heavy TB BTE",
+          "color": "Amarillo",
+          "href": "/catalog/sportswear/14",
+          "image": {
+            "alt": "SL Heavy TB BTE - Amarillo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["yellow"]
+        },
+        {
+          "id": 15,
+          "name": "SL Heavy TB BTE",
+          "color": "Gris",
+          "href": "/catalog/sportswear/15",
+          "image": {
+            "alt": "SL Heavy TB BTE - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["gray"]
+        },
+        {
+          "id": 16,
+          "name": "SL Heavy TB BTE",
+          "color": "Negro",
+          "href": "/catalog/sportswear/16",
+          "image": {
+            "alt": "SL Heavy TB BTE - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["black"]
+        },
+        {
+          "id": 17,
+          "name": "SL Heavy TB BTE",
+          "color": "Rojo",
+          "href": "/catalog/sportswear/17",
+          "image": {
+            "alt": "SL Heavy TB BTE - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["red"]
+        },
+        {
+          "id": 18,
+          "name": "SL Heavy TB BTE",
+          "color": "Verde",
+          "href": "/catalog/sportswear/18",
+          "image": {
+            "alt": "SL Heavy TB BTE - Verde",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["green"]
+        },
+        {
+          "id": 19,
+          "name": "Sport Touch",
+          "color": "Gris",
+          "href": "/catalog/sportswear/19",
+          "image": {
+            "alt": "Sport Touch - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["gray"]
+        },
+        {
+          "id": 20,
+          "name": "Sport Touch",
+          "color": "Azul",
+          "href": "/catalog/sportswear/20",
+          "image": {
+            "alt": "Sport Touch - Azul",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["blue"]
+        },
+        {
+          "id": 21,
+          "name": "Sport Touch",
+          "color": "Rojo",
+          "href": "/catalog/sportswear/21",
+          "image": {
+            "alt": "Sport Touch - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["red"]
+        },
+        {
+          "id": 22,
+          "name": "Sport Touch",
+          "color": "Verde",
+          "href": "/catalog/sportswear/22",
+          "image": {
+            "alt": "Sport Touch - Verde",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["green"]
+        }
+      ]
+
     }
   ]
 }

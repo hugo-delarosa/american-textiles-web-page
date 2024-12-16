@@ -58,7 +58,7 @@ export default async function Page(props: { params: Promise<{ slug: string, id: 
               <TabPanels>
                 {product.images.map((image) => (
                   <TabPanel key={image.id}>
-                    <Image width={1920} height={1080} alt={image.alt} src={image.src} className="aspect-square w-full object-cover sm:rounded-lg"/>
+                    <Image width={700} height={700} alt={image.alt} src={image.src} className="aspect-square w-full object-cover sm:rounded-lg"/>
                   </TabPanel>
                 ))}
               </TabPanels>
@@ -66,7 +66,7 @@ export default async function Page(props: { params: Promise<{ slug: string, id: 
 
             {/* Product info */}
             <div className="mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0">
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900">{product.name}</h1>
+              <h1 className="text-3xl font-bold tracking-tight text-gray-900">{product.name} - {product.color}</h1>
 
               <div className="mt-3">
                 <h2 className="sr-only">Product information</h2>
