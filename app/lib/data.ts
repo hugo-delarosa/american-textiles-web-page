@@ -64,10 +64,11 @@ export async function fetchCatalogPage(): Promise<Catalog> {
   const sportswear_products = sportswear_category.products.sort(function () {
     return (Math.random() - 0.5) * 2;
   }).slice(0,6);
-  const lingerie_category = await fetchCatalog('lingerie');
-  const lingerie_products = lingerie_category.products.sort(function () {
+  const  apparel_category = await fetchCatalog('apparel');
+  const  apparel_products =  apparel_category.products.sort(function () {
     return (Math.random() - 0.5) * 2;
-  });
+  }).slice(3,9);
+
   const technical_category = await fetchCatalog('technical');
   const technical_products = technical_category.products.sort(function () {
     return (Math.random() - 0.5) * 2;
@@ -76,7 +77,7 @@ export async function fetchCatalogPage(): Promise<Catalog> {
   const trending_products: Record<string, Product[]> = {
     auto: auto_products,
     sportswear: sportswear_products,
-    lingerie: lingerie_products,
+    apparel:  apparel_products,
     technical: technical_products
   }
   dictionary.catalog.categories.map((category) => {

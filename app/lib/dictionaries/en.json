@@ -1,145 +1,2819 @@
 {
   "general": {
     "email": "ventas@ameritex.com.mx",
-    "phone": "dsa",
+    "phone": "+52 55 5699 2225",
     "name": "American Specialized Textiles",
-    "address": "1234 Main Street, Anytown, USA",
+    "address": "Av. Via Morelos 68, Rústica Xalostoc, Benito Juárez Xalostoc, 55340 Ecatepec de Morelos, Méx., México",
     "title": "American Specialized Textiles",
     "description": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
   },
+  "navigation": [
+    {
+      "name": "Acerca de la Empresa",
+      "href": "/about"
+    },
+    {
+      "name": "Catálogo de Productos",
+      "href": "/catalog"
+    },
+    {
+      "name": "Contacto",
+      "href": "/contact"
+    }
+  ],
   "landing": {
     "title": "Tejiendo hoy, transformando el mañana ",
-    "subtitle": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
-  },
-  "landing_hero": {
-    "title": "Descubre Nuestros Tejidos",
-    "text": "Explora la rica herencia detrás de nuestras telas, creadas con los más altos estándares de calidad. Descubre cómo hacemos realidad tu visión, un hilo a la vez."
-  },
-  "navigation": {
-    "about": "Acerca de la Empresa",
-    "catalog": "Catálogo",
-    "contact": "Contacto"
-  },
-  "certification": {
-    "title": "Empresa Orgullosamente Certificada",
-    "subtitle": "Nuestros productos cumplen con los más altos estándares de calidad y seguridad.",
-    "text": "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
-    "feature1": {
-      "name": "Laboratorios equipados.",
-      "description": "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color. "
+    "subtitle": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado.",
+    "video": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/Home.mp4",
+    "hero": {
+      "title": "Descubre Nuestros Tejidos",
+      "text": "Explora la rica herencia detrás de nuestras telas, creadas con los más altos estándares de calidad. Descubre cómo hacemos realidad tu visión, un hilo a la vez.",
+      "image": {
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/landing/image_1.jpg",
+        "alt": "About Image Section"
+      }
     },
-    "feature2": {
-      "name": "Personal Capacitado.",
-      "description": "Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.  "
-    },
-    "feature3":{
-      "name": "Procesos y Controles.",
-      "description": "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos.  "
+    "certification": {
+      "title": "Empresa Orgullosamente Certificada",
+      "subtitle": "Nuestros productos cumplen con los más altos estándares de calidad y seguridad.",
+      "text": "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
+      "features": [
+        {
+          "name": "Laboratorios equipados.",
+          "description": "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color.",
+          "icon": "BeakerIcon"
+        },
+        {
+          "name": "Personal Capacitado.",
+          "description": "Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.",
+          "icon": "ClipboardDocumentCheckIcon"
+        },
+        {
+          "name": "Procesos y Controles.",
+          "description": "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos.",
+          "icon": "UserGroupIcon"
+        }
+      ],
+      "image": {
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/landing/image_2.png",
+        "alt": "Certification Image Section"
+      }
     }
   },
   "about":{
     "title": "Acerca de American ",
-    "paragraph1": "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
-    "paragraph2": "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color. Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.",
-    "paragraph3": "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos."
-
-  },
-  "mission": {
-    "title": "Misión",
-    "text": "Brindar textiles que apoyan a industrias y marcan una diferencia en la vida cotidiana. Con precisión, tradición e innovación, nuestro objetivo es superar las expectativas de nuestros clientes mientras cuidamos del planeta."
-  },
-  "vision": {
-    "title": "Visión",
-    "text": "Ser líder a nivel global en textiles especializados, mejorando continuamente a través de nuevas tecnologías, prácticas sostenibles y calidad excepcional. Visualizamos un futuro donde nuestros productos contribuyan tanto a las personas como al planeta, construyendo relaciones significativas con clientes a nivel mundial."
-  },
-  "values": {
-    "title": "Nuestros Valores",
-    "text": "Nuestros valores son la base de nuestra cultura y guían nuestras decisiones y acciones. Nos esforzamos por ser una empresa que se preocupa por el bienestar de sus empleados, clientes y el medio ambiente. Nuestros valores son: Calidad, Innovación, Sostenibilidad, Integridad y Respeto.",
-    "value1":{
-      "name": "Innovación y Tradición  ",
-      "description": "Con más de 80 años de experiencia textil, fusionamos nuestra historia con avances modernos para sequir evolucionando y crear nuevas soluciones para los mercados globales.  "
+    "paragraphs":[
+      "Nos enorgullece ser una empresa certificada en sistemas de calidad desde 1980, actualmente contamos con la certificación IATF 16949 la cual nos permite ser proveedores de la industria automotriz. Cumplimos con los más altos estándares de calidad y servicio en diversos sectores como ropa deportiva, lencería y textiles técnicos.",
+      "Nuestros laboratorios están equipados para realizar una amplia variedad de pruebas desde el desarrollo de fórmulas de color y acabado hasta pruebas físicas, mecánicas, químicas y solidez del color. Utilizando los métodos y equipos adecuados a cada prueba, bajo el seguimiento de nuestro personal altamente capacitado.",
+      "Seguimos paso a paso nuestros procedimientos y controles establecidos en cada proceso para asegurar la calidad de nuestros productos."
+    ],
+    "images": [
+      {
+        "alt": "About Image 1",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_6.jpg"
+      },
+      {
+        "alt": "About Image 2",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_2.jpg"
+      },
+      {
+        "alt": "About Image 4",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_4.jpg"
+      },
+      {
+        "alt": "About Image 3",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_3.jpg"
+      },
+      {
+        "alt": "About Image 5",
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_5.jpg"
+      }
+    ],
+    "mission": {
+      "title": "Misión",
+      "text": "Brindar textiles que apoyan a industrias y marcan una diferencia en la vida cotidiana. Con precisión, tradición e innovación, nuestro objetivo es superar las expectativas de nuestros clientes mientras cuidamos del planeta."
     },
-    "value2": {
-      "name": "Excelencia ",
-      "description": "Nos comprometemos a dar lo mejor en todo lo que hacemos, desde textiles automotrices hasta telas deportivas. Con nuestra experiencia y tecnología, garantizamos que cada producto cumpla con los más altos estándares. "
+    "vision": {
+      "title": "Visión",
+      "text": "Ser líder a nivel global en textiles especializados, mejorando continuamente a través de nuevas tecnologías, prácticas sostenibles y calidad excepcional. Visualizamos un futuro donde nuestros productos contribuyan tanto a las personas como al planeta, construyendo relaciones significativas con clientes a nivel mundial."
     },
-    "value3": {
-      "name": "Integridad y Responsabilidad ",
-      "description": "Nuestro objetivo es la honestidad y transparencia en nuestras acciones, tratando a todos con respeto y siendo empáticos con la comunidad y el medio ambiente. Actuar con responsabilidad es clave para construir confianza y relaciones duraderas. "
+    "values": {
+      "title": "Nuestros Valores",
+      "text": "Nuestros valores son la base de nuestra cultura y guían nuestras decisiones y acciones. Nos esforzamos por ser una empresa que se preocupa por el bienestar de sus empleados, clientes y el medio ambiente. Nuestros valores son: Calidad, Innovación, Sostenibilidad, Integridad y Respeto.",
+      "values":[
+        {
+          "name": "Innovación y Tradición  ",
+          "description": "Con más de 80 años de experiencia textil, fusionamos nuestra historia con avances modernos para sequir evolucionando y crear nuevas soluciones para los mercados globales.  "
+        },
+        {
+          "name": "Excelencia ",
+          "description": "Nos comprometemos a dar lo mejor en todo lo que hacemos, desde textiles automotrices hasta telas deportivas. Con nuestra experiencia y tecnología, garantizamos que cada producto cumpla con los más altos estándares. "
+        },
+        {
+          "name": "Integridad y Responsabilidad ",
+          "description": "Nuestro objetivo es la honestidad y transparencia en nuestras acciones, tratando a todos con respeto y siendo empáticos con la comunidad y el medio ambiente. Actuar con responsabilidad es clave para construir confianza y relaciones duraderas. "
+        },
+        {
+          "name": "Empatía",
+          "description": "Priorizamos construir relaciones sólidas al comprender genuinamente las necesidades de nuestros clientes. Nuestro obietivo es ofrecer productos personalizados de manera constante. "
+        }
+      ]
     },
-    "value4": {
-      "name": "Empatía",
-      "description": "Priorizamos construir relaciones sólidas al comprender genuinamente las necesidades de nuestros clientes. Nuestro obietivo es ofrecer productos personalizados de manera constante. "
+    "imageSection": {
+      "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/about/image_1.jpg",
+      "alt": "About Image Section"
     }
   },
   "catalog": {
     "title": "Catálogo de Productos",
     "view_category": "Ver Categoría",
-    "category1": {
-      "name": "Automotriz"
-    },
-    "category2": {
-      "name": "Ropa Deportiva"
-    },
-    "category3": {
-      "name": "Lencería"
-    },
-    "category4": {
-      "name": "Textiles Técnicos"
-    }
-  },
-  "products": {
-    "auto": {
-      "1": {
-        "name": "Headliner",
-        "color": "Gris",
-        "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas."
-      },
-      "2": {
-        "name": "Headliner",
-        "color": "Laminado"
-      },
-      "3": {
-        "name": "Asiento",
-        "color": "Bamboo"
-      },
-      "4": {
-        "name": "Asiento",
-        "color": "Negro"
-      },
-      "5": {
-        "name": "Asiento",
-        "color": "Naranja"
-      },
-      "6": {
-        "name": "Asiento",
-        "color": "Teal"
-      },
-      "7": {
-        "name": "Asiento",
-        "color": "Viscosa"
-      },
-      "8": {
-        "name": "Volster",
-        "color": "Gaelita - Mole"
-      },
-      "9": {
-        "name": "Volster",
-        "color": "Galena - Clay"
-      },
-      "10": {
-        "name": "Volster",
-        "color": "Onix - Salvia"
-      },
-      "11": {
-        "name": "Volster",
-        "color": "Onix - Tangerine"
-      },
-      "12": {
-        "name": "Volster",
-        "color": "Onix - Timelapse"
+    "cta": {
+      "title": "¡Conectemos!",
+      "text": "¿Tienes preguntas o quieres saber más sobre nosotros? ¡Nos encantaría escucharte!",
+      "button_text": "Enviar Mensaje",
+      "href": "/contact",
+      "image": {
+        "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/CTA/CTA_image_3.jpg",
+        "alt": "Catálogo de Productos"
       }
-    }
+    },
+    "image": {
+      "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_1.jpg",
+      "alt": "Catálogo de Productos"
+    },
+    "categories": [
+      {
+        "id": "auto",
+        "name": "Automotriz",
+        "href": "/catalog/auto",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_2.jpg",
+          "alt": "Automotriz"
+        }
+      },
+      {
+        "id": "sportswear",
+        "name": "Ropa Deportiva",
+        "href": "/catalog/sportswear",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_3.jpg",
+          "alt": "Ropa Deportiva"
+        }
+      },
+      {
+        "id": "apparel",
+        "name": "Confección",
+        "href": "/catalog/apparel",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_4.jpg",
+          "alt": "Confección"
+        }
+      },
+      {
+        "id": "technical",
+        "name": "Textiles Técnicos",
+        "href": "/catalog/technical",
+        "image": {
+          "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/image_5.jpg",
+          "alt": "Textiles Técnicos"
+        }
+      }
+    ]
+  },
+  "products_catalog": [
+    {
+      "id": "auto",
+      "name": "Automotriz",
+      "filters": [
+        {
+          "id": "use",
+          "name": "Usos",
+          "options": [
+            {
+              "value": "bolster",
+              "label": "Bolster"
+            },
+            {
+              "value": "headliner",
+              "label": "Headliner"
+            },
+            {
+              "value": "seat",
+              "label": "Asiento"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": 1,
+          "name": "Headliner",
+          "color": "Gris",
+          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "href": "/catalog/auto/1",
+          "image": {
+            "alt": "Headliner - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Headliner - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/gray/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["headliner"]
+        },
+        {
+          "id": 2,
+          "name": "Headliner",
+          "color": "Laminado",
+          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "href": "/catalog/auto/2",
+          "image": {
+            "alt": "Headliner - Laminado",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Headliner - Laminado",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/headliner/laminate/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["headliner"]
+        },
+        {
+          "id": 3,
+          "name": "Asiento",
+          "color": "Bamboo",
+          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "href": "/catalog/auto/3",
+          "image": {
+            "alt": "Asiento - Bamboo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Asiento - Bamboo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/bamboo/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
+        },
+        {
+          "id": 4,
+          "name": "Asiento",
+          "color": "Negro",
+          "description": "",
+          "href": "/catalog/auto/4",
+          "image": {
+            "alt": "Asiento - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_3.jpg"
+            },
+            {
+              "id":  4,
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_6.jpg"
+            },
+            {
+              "id": 7,
+              "alt": "Asiento - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/black/image_7.jpg"
+            }
+          ],
+          "filter_criteria":["seat"]
+        },
+        {
+          "id": 5,
+          "name": "Asiento",
+          "color": "Naranja",
+          "description": "",
+          "href": "/catalog/auto/5",
+          "image": {
+            "alt": "Asiento - Naranja",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_2.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_3.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_4.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_5.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Asiento - Naranja",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/orange/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
+        },
+        {
+          "id": 6,
+          "name": "Asiento",
+          "color": "Teal",
+          "description": "",
+          "href": "/catalog/auto/6",
+          "image": {
+            "alt": "Asiento - Teal",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Asiento - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/teal/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
+        },
+        {
+          "id": 7,
+          "name": "Asiento",
+          "color": "Viscosa",
+          "description": "",
+          "href": "/catalog/auto/7",
+          "image": {
+            "alt": "Asiento - Viscosa",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Asiento - Viscosa",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Asiento - Viscosa",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/seat/viscose/image_2.jpg"
+            }
+          ],
+          "filter_criteria": ["seat"]
+        }
+      ]
+    },
+    {
+      "id": "sportswear",
+      "name": "Ropa Deportiva",
+      "filters": [
+        {
+          "id": "usage",
+          "name": "Uso",
+          "options": [
+            {
+              "value": "uniform",
+              "label": "Uniformes"
+            },
+            {
+              "value": "polo",
+              "label": "Playeras Polo"
+            },
+            {
+              "value": "work",
+              "label": "Uniformes Laborales"
+            },
+            {
+              "value": "collar",
+              "label": "Cuello de Playeras"
+            },
+            {
+              "value": "pants",
+              "label": "Pants"
+            },
+            {
+              "value": "hoodie",
+              "label": "Sudaderas"
+            },
+            {
+              "value": "shorts",
+              "label": "Shorts"
+            },
+            {
+              "value": "jacket",
+              "label": "Chamarras"
+            },
+            {
+              "value": "t-shirt",
+              "label": "Playeras"
+            },
+            {
+              "value": "tops",
+              "label": "Tops"
+            },
+            {
+              "value": "swimwear",
+              "label": "Trajes de Baño"
+            },
+            {
+              "value": "underwear",
+              "label": "Ropa Interior"
+            },
+            {
+              "value": "football-uniform",
+              "label": "Uniformes de Football Americano"
+            },
+            {
+              "value": "school-uniform",
+              "label": "Uniformes Escolares"
+            }
+          ]
+        },
+        {
+          "id": "technology",
+          "name": "Tecnología",
+          "options": [
+            {
+              "value": "circular",
+              "label": "Circular"
+            },
+            {
+              "value": "tricot",
+              "label": "Tricot"
+            }
+          ]
 
-  }
+        }
+      ],
+      "products": [
+        {
+          "id": 1,
+          "name": "Costa Rica Dri/Antibacterial",
+          "color": "A",
+          "href": "/catalog/sportswear/1",
+          "image": {
+            "alt": "Costa Rica Dri/Antibacterial - A",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica Dri/Antibacterial - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica Dri/Antibacterial - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica Dri/Antibacterial - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica Dri/Antibacterial - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica Dri/Antibacterial - A",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/a/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "uniform", "polo", "work", "collar"],
+          "description": "Tela de poliéster antibacteriana ideal para prendas de uso constante, apta para sublimar y estampar; confecciona con ella uniformes escolares y laborales. Tiene la capacidad de resistir el desgaste haciéndola una opción ideal para prendas de alto rendimiento.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Playeras tipo polo","Uniformes laborales"," Cuello de Playeras"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Costa Rica Dri/Antibacterial",
+          "color": "AC",
+          "href": "/catalog/sportswear/2",
+          "image": {
+            "alt": "Costa Rica Dri/Antibacterial - AC",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica Dri/Antibacterial - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica Dri/Antibacterial - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica Dri/Antibacterial - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica Dri/Antibacterial - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica Dri/Antibacterial - AC",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/ac/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "uniform", "polo", "work", "collar"],
+          "description": "Tela de poliéster antibacteriana ideal para prendas de uso constante, apta para sublimar y estampar; confecciona con ella uniformes escolares y laborales. Tiene la capacidad de resistir el desgaste haciéndola una opción ideal para prendas de alto rendimiento.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Playeras tipo polo","Uniformes laborales"," Cuello de Playeras"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Costa Rica Dri/Antibacterial",
+          "color": "Gris",
+          "href": "/catalog/sportswear/3",
+          "image": {
+            "alt": "Costa Rica Dri/Antibacterial - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica Dri/Antibacterial - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica Dri/Antibacterial - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica Dri/Antibacterial - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica Dri/Antibacterial - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica Dri/Antibacterial - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/gray/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "uniform", "polo", "work", "collar"],
+          "description": "Tela de poliéster antibacteriana ideal para prendas de uso constante, apta para sublimar y estampar; confecciona con ella uniformes escolares y laborales. Tiene la capacidad de resistir el desgaste haciéndola una opción ideal para prendas de alto rendimiento.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Playeras tipo polo","Uniformes laborales"," Cuello de Playeras"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Costa Rica Dri/Antibacterial",
+          "color": "Negro",
+          "href": "/catalog/sportswear/4",
+          "image": {
+            "alt": "Costa Rica Dri/Antibacterial - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Costa Rica Dri/Antibacterial - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Costa Rica Dri/Antibacterial - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Costa Rica Dri/Antibacterial - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Costa Rica Dri/Antibacterial - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Costa Rica Dri/Antibacterial - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/costa-rica/black/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "uniform", "polo", "work", "collar"],
+          "description": "Tela de poliéster antibacteriana ideal para prendas de uso constante, apta para sublimar y estampar; confecciona con ella uniformes escolares y laborales. Tiene la capacidad de resistir el desgaste haciéndola una opción ideal para prendas de alto rendimiento.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Playeras tipo polo","Uniformes laborales"," Cuello de Playeras"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Monaco",
+          "color": "Azul",
+          "href": "/catalog/sportswear/5",
+          "image": {
+            "alt": "Monaco - Azul",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/blue/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "jacket", "pants", "hoodie"],
+          "description": "Tela afelpada de poliéster para la confección de prendas duraderas con toque suave al tacto; apta para sublimar y estampar lo cual permite usarla en chamarras, pants y sudaderas. Esta tela asegura que tus prendas se mantendrán en excelente estado incluso con el uso frecuente.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chamarras","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Monaco",
+          "color": "Beige",
+          "href": "/catalog/sportswear/6",
+          "image": {
+            "alt": "Monaco - Beige",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco - Beige",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/beige/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "jacket", "pants", "hoodie"],
+          "description": "Tela afelpada de poliéster para la confección de prendas duraderas con toque suave al tacto; apta para sublimar y estampar lo cual permite usarla en chamarras, pants y sudaderas. Esta tela asegura que tus prendas se mantendrán en excelente estado incluso con el uso frecuente.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chamarras","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Monaco",
+          "color": "Negro",
+          "href": "/catalog/sportswear/7",
+          "image": {
+            "alt": "Monaco - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/black/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "jacket", "pants", "hoodie"],
+          "description": "Tela afelpada de poliéster para la confección de prendas duraderas con toque suave al tacto; apta para sublimar y estampar lo cual permite usarla en chamarras, pants y sudaderas. Esta tela asegura que tus prendas se mantendrán en excelente estado incluso con el uso frecuente.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chamarras","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Monaco",
+          "color": "Rojo",
+          "href": "/catalog/sportswear/8",
+          "image": {
+            "alt": "Monaco - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Monaco - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Monaco - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Monaco - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Monaco - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/monaco/red/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "jacket", "pants", "hoodie"],
+          "description": "Tela afelpada de poliéster para la confección de prendas duraderas con toque suave al tacto; apta para sublimar y estampar lo cual permite usarla en chamarras, pants y sudaderas. Esta tela asegura que tus prendas se mantendrán en excelente estado incluso con el uso frecuente.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chamarras","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "SL 32 ANG",
+          "color": "Azul",
+          "href": "/catalog/sportswear/9",
+          "image": {
+            "alt": "SL 32 ANG - Azul",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 ANG - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 ANG - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 ANG - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 ANG - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 ANG - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 ANG - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/blue/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirt", "tops", "swimwear", "underwear"],
+          "description": "Tela elástica, resistente y fuerte  que permite total libertad de movimiento, elaborada con licra y nylon ideal para prendas deportivas como shorts y tops, cuenta con acabado brillante que la hace perfecta incluso para ropa interior, y trajes de baño.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa interior","Traje de Baño","Playeras", "Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SL 32 ANG",
+          "color": "Gris",
+          "href": "/catalog/sportswear/10",
+          "image": {
+            "alt": "SL 32 ANG - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 ANG - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 ANG - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 ANG - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 ANG - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 ANG - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 ANG - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/gray/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirt", "tops", "swimwear", "underwear"],
+          "description": "Tela elástica, resistente y fuerte  que permite total libertad de movimiento, elaborada con licra y nylon ideal para prendas deportivas como shorts y tops, cuenta con acabado brillante que la hace perfecta incluso para ropa interior, y trajes de baño.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa interior","Traje de Baño","Playeras", "Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "SL 32 ANG",
+          "color": "Negro",
+          "href": "/catalog/sportswear/11",
+          "image": {
+            "alt": "SL 32 ANG - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 ANG - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 ANG - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 ANG - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 ANG - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 ANG - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 ANG - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/black/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirt", "tops", "swimwear", "underwear"],
+          "description": "Tela elástica, resistente y fuerte  que permite total libertad de movimiento, elaborada con licra y nylon ideal para prendas deportivas como shorts y tops, cuenta con acabado brillante que la hace perfecta incluso para ropa interior, y trajes de baño.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa interior","Traje de Baño","Playeras", "Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "SL 32 ANG",
+          "color": "Rojo",
+          "href": "/catalog/sportswear/12",
+          "image": {
+            "alt": "SL 32 ANG - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 ANG - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 ANG - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 ANG - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 ANG - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 ANG - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 ANG - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/red/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirt", "tops", "swimwear", "underwear"],
+          "description": "Tela elástica, resistente y fuerte  que permite total libertad de movimiento, elaborada con licra y nylon ideal para prendas deportivas como shorts y tops, cuenta con acabado brillante que la hace perfecta incluso para ropa interior, y trajes de baño.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa interior","Traje de Baño","Playeras", "Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SL 32 ANG",
+          "color": "Teal",
+          "href": "/catalog/sportswear/13",
+          "image": {
+            "alt": "SL 32 ANG - Teal",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL 32 ANG - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL 32 ANG - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL 32 ANG - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL 32 ANG - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL 32 ANG - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL 32 ANG - Teal",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-32/teal/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirt", "tops", "swimwear", "underwear"],
+          "description": "Tela elástica, resistente y fuerte  que permite total libertad de movimiento, elaborada con licra y nylon ideal para prendas deportivas como shorts y tops, cuenta con acabado brillante que la hace perfecta incluso para ropa interior, y trajes de baño.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa interior","Traje de Baño","Playeras", "Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SL Heavy TB BTE",
+          "color": "Amarillo",
+          "href": "/catalog/sportswear/14",
+          "image": {
+            "alt": "SL Heavy TB BTE - Amarillo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Amarillo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/yellow/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "football-uniform"],
+          "description": "Tela brillante de poliéster, ideal para la confección de uniformes de fútbol americano puestas en jersey y shorts. Esta tela es perfecta para sublimar con un impactante y profesional diseño pues la tela tiene un rendimiento excepcional.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes de Football Americano"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SL Heavy TB BTE",
+          "color": "Gris",
+          "href": "/catalog/sportswear/15",
+          "image": {
+            "alt": "SL Heavy TB BTE - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/gray/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "football-uniform"],
+          "description": "Tela brillante de poliéster, ideal para la confección de uniformes de fútbol americano puestas en jersey y shorts. Esta tela es perfecta para sublimar con un impactante y profesional diseño pues la tela tiene un rendimiento excepcional.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes de Football Americano"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "SL Heavy TB BTE",
+          "color": "Negro",
+          "href": "/catalog/sportswear/16",
+          "image": {
+            "alt": "SL Heavy TB BTE - Negro",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Negro",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/black/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "football-uniform"],
+          "description": "Tela brillante de poliéster, ideal para la confección de uniformes de fútbol americano puestas en jersey y shorts. Esta tela es perfecta para sublimar con un impactante y profesional diseño pues la tela tiene un rendimiento excepcional.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes de Football Americano"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "SL Heavy TB BTE",
+          "color": "Rojo",
+          "href": "/catalog/sportswear/17",
+          "image": {
+            "alt": "SL Heavy TB BTE - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/red/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "football-uniform"],
+          "description": "Tela brillante de poliéster, ideal para la confección de uniformes de fútbol americano puestas en jersey y shorts. Esta tela es perfecta para sublimar con un impactante y profesional diseño pues la tela tiene un rendimiento excepcional.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes de Football Americano"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "SL Heavy TB BTE",
+          "color": "Verde",
+          "href": "/catalog/sportswear/18",
+          "image": {
+            "alt": "SL Heavy TB BTE - Verde",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "SL Heavy TB BTE - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sl-heavy-tb-bte/green/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "football-uniform"],
+          "description": "Tela brillante de poliéster, ideal para la confección de uniformes de fútbol americano puestas en jersey y shorts. Esta tela es perfecta para sublimar con un impactante y profesional diseño pues la tela tiene un rendimiento excepcional.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes de Football Americano"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Sport Touch",
+          "color": "Gris",
+          "href": "/catalog/sportswear/19",
+          "image": {
+            "alt": "Sport Touch - Gris",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Gris",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/gray/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "pants", "hoodies", "school-uniforms"],
+          "description": "Tela afelpada de poliéster , perfecta para la confección de pants y sudaderas escolares que combinan confort, durabilidad y estilo; tiene un acabado brillante que realza los tonos, resistente y de fácil cuidado, no piling al frote. Asegura textura suave por la felpa y resistencia al uso constante.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Sport Touch",
+          "color": "Azul",
+          "href": "/catalog/sportswear/20",
+          "image": {
+            "alt": "Sport Touch - Azul",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Azul",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/blue/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "pants", "hoodies", "school-uniforms"],
+          "description": "Tela afelpada de poliéster , perfecta para la confección de pants y sudaderas escolares que combinan confort, durabilidad y estilo; tiene un acabado brillante que realza los tonos, resistente y de fácil cuidado, no piling al frote. Asegura textura suave por la felpa y resistencia al uso constante.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Sport Touch",
+          "color": "Rojo",
+          "href": "/catalog/sportswear/21",
+          "image": {
+            "alt": "Sport Touch - Rojo",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Rojo",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/red/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "pants", "hoodies", "school-uniforms"],
+          "description": "Tela afelpada de poliéster , perfecta para la confección de pants y sudaderas escolares que combinan confort, durabilidad y estilo; tiene un acabado brillante que realza los tonos, resistente y de fácil cuidado, no piling al frote. Asegura textura suave por la felpa y resistencia al uso constante.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Sport Touch",
+          "color": "Verde",
+          "href": "/catalog/sportswear/22",
+          "image": {
+            "alt": "Sport Touch - Verde",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Sport Touch - Verde",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/sportswear/sport-touch/green/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "pants", "hoodies", "school-uniforms"],
+          "description": "Tela afelpada de poliéster , perfecta para la confección de pants y sudaderas escolares que combinan confort, durabilidad y estilo; tiene un acabado brillante que realza los tonos, resistente y de fácil cuidado, no piling al frote. Asegura textura suave por la felpa y resistencia al uso constante.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Uniformes escolares","Pants","Sudaderas"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apparel",
+      "name": "Confección",
+      "filters": [
+        {
+          "id": "technology",
+          "name": "Tecnología",
+          "options": [
+            {
+              "value": "tricot",
+              "label": "Tricot"
+            },
+            {
+              "value": "circular",
+              "label": "Circular"
+            }
+          ]
+        },
+        {
+          "id": "use",
+          "name": "Uso",
+          "options": [
+            {
+              "value": "lingerie",
+              "label": "Ropa Interior"
+            },
+            {
+              "value": "sashes",
+              "label": "Fajas"
+            },
+            {
+              "value": "bras",
+              "label": "Brassieres"
+            },
+            {
+              "value": "tops",
+              "label": "Tops"
+            },
+            {
+              "value": "shorts",
+              "label": "Shorts"
+            },
+            {
+              "value": "t-shirt",
+              "label": "Playeras"
+            },
+            {
+              "value": "bias",
+              "label": "Bies"
+            },
+            {
+              "value": "linings",
+              "label": "Forros"
+            },
+            {
+              "value": "backgrouds",
+              "label": "Fondos"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": 1,
+          "name": "SL Paulette / SL Paulette EST",
+          "color": "Gris",
+          "href": "/catalog/apparel/1",
+          "image": {
+            "alt": "SL Paulette / SL Paulette EST - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Paulette / SL Paulette EST - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Paulette / SL Paulette EST - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Paulette / SL Paulette EST - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Paulette / SL Paulette EST - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Paulette / SL Paulette EST - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/grey/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "lingerie"],
+          "description": "Tela suave y ligera, ideal para sublimar y estampar; su textura delicada la convierte en la opción perfecta para la confección de ropa interior",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SL Paulette / SL Paulette EST",
+          "color": "Rojo",
+          "href": "/catalog/apparel/2",
+          "image": {
+            "alt": "SL Paulette / SL Paulette EST - Red",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Paulette / SL Paulette EST - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Paulette / SL Paulette EST - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Paulette / SL Paulette EST - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Paulette / SL Paulette EST - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Paulette / SL Paulette EST - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/red/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "lingerie"],
+          "description": "Tela suave y ligera, ideal para sublimar y estampar; su textura delicada la convierte en la opción perfecta para la confección de ropa interior",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "SL Paulette / SL Paulette EST",
+          "color": "Negro",
+          "href": "/catalog/apparel/3",
+          "image": {
+            "alt": "SL Paulette / SL Paulette EST - Black",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Paulette / SL Paulette EST - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Paulette / SL Paulette EST - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Paulette / SL Paulette EST - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Paulette / SL Paulette EST - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Paulette / SL Paulette EST - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/black/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "lingerie"],
+          "description": "Tela suave y ligera, ideal para sublimar y estampar; su textura delicada la convierte en la opción perfecta para la confección de ropa interior",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "SL Paulette / SL Paulette EST",
+          "color": "Rosa",
+          "href": "/catalog/apparel/4",
+          "image": {
+            "alt": "SL Paulette / SL Paulette EST - Pink",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/pink/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Paulette / SL Paulette EST - Pink",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/pink/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Paulette / SL Paulette EST - Pink",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/pink/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Paulette / SL Paulette EST - Pink",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/pink/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Paulette / SL Paulette EST - Pink",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/pink/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Paulette / SL Paulette EST - Pink",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/pink/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "lingerie"],
+          "description": "Tela suave y ligera, ideal para sublimar y estampar; su textura delicada la convierte en la opción perfecta para la confección de ropa interior",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "SL Paulette / SL Paulette EST",
+          "color": "Salmon",
+          "href": "/catalog/apparel/5",
+          "image": {
+            "alt": "SL Paulette / SL Paulette EST - Salmon",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/salmon/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Paulette / SL Paulette EST - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/salmon/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Paulette / SL Paulette EST - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/salmon/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Paulette / SL Paulette EST - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/salmon/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Paulette / SL Paulette EST - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/salmon/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Paulette / SL Paulette EST - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/salmon/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "lingerie"],
+          "description": "Tela suave y ligera, ideal para sublimar y estampar; su textura delicada la convierte en la opción perfecta para la confección de ropa interior",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SL Paulette / SL Paulette EST",
+          "color": "Estampada",
+          "href": "/catalog/apparel/6",
+          "image": {
+            "alt": "SL Paulette / SL Paulette EST - Stamped",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/stamped/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Paulette / SL Paulette EST - Stamped",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/stamped/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Paulette / SL Paulette EST - Stamped",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/stamped/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Paulette / SL Paulette EST - Stamped",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/stamped/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Paulette / SL Paulette EST - Stamped",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-paulette/stamped/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["circular", "lingerie"],
+          "description": "Tela suave y ligera, ideal para sublimar y estampar; su textura delicada la convierte en la opción perfecta para la confección de ropa interior",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Circular"]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "SL Power BTE",
+          "color": "Blanco",
+          "href": "/catalog/apparel/7",
+          "image": {
+            "alt": "SL Power BTE - White",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/white/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power BTE - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/white/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power BTE - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/white/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power BTE - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/white/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power BTE - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/white/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power BTE - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/white/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela para prendas de control con material de alta calidad de licra y nylon que ofrece un ajuste perfecto y cómodo. Su acabado brillante la hace ver elegante y moderna; ideal para la confección de fajas brasieres, tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SL Power BTE",
+          "color": "Gris",
+          "href": "/catalog/apparel/8",
+          "image": {
+            "alt": "SL Power BTE - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power BTE - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power BTE - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power BTE - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power BTE - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power BTE - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/grey/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela para prendas de control con material de alta calidad de licra y nylon que ofrece un ajuste perfecto y cómodo. Su acabado brillante la hace ver elegante y moderna; ideal para la confección de fajas brasieres, tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "SL Power BTE",
+          "color": "Nude",
+          "href": "/catalog/apparel/9",
+          "image": {
+            "alt": "SL Power BTE - Nude",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/nude/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power BTE - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/nude/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power BTE - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/nude/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power BTE - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/nude/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power BTE - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/nude/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power BTE - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/nude/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela para prendas de control con material de alta calidad de licra y nylon que ofrece un ajuste perfecto y cómodo. Su acabado brillante la hace ver elegante y moderna; ideal para la confección de fajas brasieres, tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SL Power BTE",
+          "color": "Aperlado",
+          "href": "/catalog/apparel/10",
+          "image": {
+            "alt": "SL Power BTE - Pearl",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/pearl/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power BTE - Pearl",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/pearl/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power BTE - Pearl",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/pearl/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power BTE - Pearl",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/pearl/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power BTE - Pearl",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/pearl/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power BTE - Pearl",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-bte/pearl/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela para prendas de control con material de alta calidad de licra y nylon que ofrece un ajuste perfecto y cómodo. Su acabado brillante la hace ver elegante y moderna; ideal para la confección de fajas brasieres, tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "SL Power NET",
+          "color": "Blanco",
+          "href": "/catalog/apparel/11",
+          "image": {
+            "alt": "SL Power NET - White",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/white/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power NET - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/white/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power NET - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/white/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power NET - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/white/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power NET - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/white/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power NET - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/white/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela fabricada con Nylon y licra de alta calidad, ofrece el ajuste perfecto y un look elegante y discreto con su acabado mate. Ideal para prendas de uso diario como fajas, brasieres y tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "SL Power NET",
+          "color": "Gris",
+          "href": "/catalog/apparel/12",
+          "image": {
+            "alt": "SL Power NET - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power NET - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power NET - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power NET - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power NET - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power NET - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/grey/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela fabricada con Nylon y licra de alta calidad, ofrece el ajuste perfecto y un look elegante y discreto con su acabado mate. Ideal para prendas de uso diario como fajas, brasieres y tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "SL Power NET",
+          "color": "Lila",
+          "href": "/catalog/apparel/13",
+          "image": {
+            "alt": "SL Power NET - Lilac",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/lilac/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power NET - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/lilac/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power NET - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/lilac/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power NET - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/lilac/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power NET - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/lilac/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power NET - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/lilac/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela fabricada con Nylon y licra de alta calidad, ofrece el ajuste perfecto y un look elegante y discreto con su acabado mate. Ideal para prendas de uso diario como fajas, brasieres y tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "SL Power NET",
+          "color": "Nude",
+          "href": "/catalog/apparel/14",
+          "image": {
+            "alt": "SL Power NET - Nude",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/nude/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Power NET - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/nude/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Power NET - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/nude/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Power NET - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/nude/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Power NET - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/nude/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Power NET - Nude",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-power-net/nude/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bras", "sashes", "tops"],
+          "description": "Tela fabricada con Nylon y licra de alta calidad, ofrece el ajuste perfecto y un look elegante y discreto con su acabado mate. Ideal para prendas de uso diario como fajas, brasieres y tops.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Fajas","Brasier","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SL Spirit",
+          "color": "Azul",
+          "href": "/catalog/apparel/15",
+          "image": {
+            "alt": "SL Spirit - Blue",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Spirit - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Spirit - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Spirit - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Spirit - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/blue/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Spirit - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/blue/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirts", "lingerie", "tops", "shorts"],
+          "description": "Tela elástica elaborada con licra y nylon ofrece un ajuste perfecto de prendas, además cuenta con una suavidad que hace ver delicadas las confecciones; ideal para playeras deportivas, shorts, tops y ropa interior.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Playeras","Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "SL Spirit",
+          "color": "Gris",
+          "href": "/catalog/apparel/16",
+          "image": {
+            "alt": "SL Spirit - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Spirit - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Spirit - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Spirit - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Spirit - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Spirit - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/grey/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirts", "lingerie", "tops", "shorts"],
+          "description": "Tela elástica elaborada con licra y nylon ofrece un ajuste perfecto de prendas, además cuenta con una suavidad que hace ver delicadas las confecciones; ideal para playeras deportivas, shorts, tops y ropa interior.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Playeras","Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "SL Spirit",
+          "color": "Naranja",
+          "href": "/catalog/apparel/17",
+          "image": {
+            "alt": "SL Spirit - Orange",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/orange/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Spirit - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/orange/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Spirit - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/orange/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Spirit - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/orange/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Spirit - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/orange/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirts", "lingerie", "tops", "shorts"],
+          "description": "Tela elástica elaborada con licra y nylon ofrece un ajuste perfecto de prendas, además cuenta con una suavidad que hace ver delicadas las confecciones; ideal para playeras deportivas, shorts, tops y ropa interior.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Playeras","Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "SL Spirit",
+          "color": "Rojo",
+          "href": "/catalog/apparel/18",
+          "image": {
+            "alt": "SL Spirit - Red",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "SL Spirit - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "SL Spirit - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "SL Spirit - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "SL Spirit - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "SL Spirit - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/sl-spirit/red/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "t-shirts", "lingerie", "tops", "shorts"],
+          "description": "Tela elástica elaborada con licra y nylon ofrece un ajuste perfecto de prendas, además cuenta con una suavidad que hace ver delicadas las confecciones; ideal para playeras deportivas, shorts, tops y ropa interior.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Playeras","Shorts","Tops"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Tri Pol 1.5",
+          "color": "Blanco",
+          "href": "/catalog/apparel/19",
+          "image": {
+            "alt": "Tri Pol 1.5 - White",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/white/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Tri Pol 1.5 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/white/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Tri Pol 1.5 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/white/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Tri Pol 1.5 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/white/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Tri Pol 1.5 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/white/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Tri Pol 1.5 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/white/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bias", "lingerie", "linings", "backgrounds"],
+          "description": "Tela brillante fabricada con poliéster de alta resistencia ofrece ligereza además de proporcionar un tacto suave; su acabado brillante da un toque elegante perfectos para la confección de lencería, ropa interior, bies, forros y fondos.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Bies","Forros","Fondos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Tri Pol 1.5",
+          "color": "Lila",
+          "href": "/catalog/apparel/20",
+          "image": {
+            "alt": "Tri Pol 1.5 - Lilac",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/lilac/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Tri Pol 1.5 - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/lilac/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Tri Pol 1.5 - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/lilac/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Tri Pol 1.5 - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/lilac/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Tri Pol 1.5 - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/lilac/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Tri Pol 1.5 - Lilac",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/lilac/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bias", "lingerie", "linings", "backgrounds"],
+          "description": "Tela brillante fabricada con poliéster de alta resistencia ofrece ligereza además de proporcionar un tacto suave; su acabado brillante da un toque elegante perfectos para la confección de lencería, ropa interior, bies, forros y fondos.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Bies","Forros","Fondos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Tri Pol 1.5",
+          "color": "Negro",
+          "href": "/catalog/apparel/21",
+          "image": {
+            "alt": "Tri Pol 1.5 - Black",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Tri Pol 1.5 - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Tri Pol 1.5 - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Tri Pol 1.5 - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Tri Pol 1.5 - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Tri Pol 1.5 - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/black/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bias", "lingerie", "linings", "backgrounds"],
+          "description": "Tela brillante fabricada con poliéster de alta resistencia ofrece ligereza además de proporcionar un tacto suave; su acabado brillante da un toque elegante perfectos para la confección de lencería, ropa interior, bies, forros y fondos.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Bies","Forros","Fondos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Tri Pol 1.5",
+          "color": "Salmon",
+          "href": "/catalog/apparel/22",
+          "image": {
+            "alt": "Tri Pol 1.5 - Salmon",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/salmon/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Tri Pol 1.5 - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/salmon/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Tri Pol 1.5 - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/salmon/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Tri Pol 1.5 - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/salmon/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Tri Pol 1.5 - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/salmon/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Tri Pol 1.5 - Salmon",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/apparel/tri-pol/salmon/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "bias", "lingerie", "linings", "backgrounds"],
+          "description": "Tela brillante fabricada con poliéster de alta resistencia ofrece ligereza además de proporcionar un tacto suave; su acabado brillante da un toque elegante perfectos para la confección de lencería, ropa interior, bies, forros y fondos.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Ropa Interior","Bies","Forros","Fondos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

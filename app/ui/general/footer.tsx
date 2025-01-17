@@ -1,3 +1,5 @@
+import Language_selector from "@/app/ui/general/language_selector";
+
 const navigation = {
   main: [
     { name: 'Inicio', href: '/' },
@@ -30,7 +32,13 @@ const navigation = {
   ],
 }
 
+// const setLanguage = async (lang: string) => {
+//   const cookieStore = await cookies();
+//   cookieStore.set('lang', lang, { path: '/' });
+// }
+
 export default function Footer() {
+
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
@@ -40,16 +48,20 @@ export default function Footer() {
               {item.name}
             </a>
           ))}
+          <Language_selector />
         </nav>
+
         <div className="mt-16 flex justify-center gap-x-10">
           {navigation.social.map((item) => (
             <a key={item.name} href={item.href} className="text-gray-600 hover:text-gray-800">
               <span className="sr-only">{item.name}</span>
-              <item.icon aria-hidden="true" className="size-6" />
+              <item.icon aria-hidden="true" className="size-6"/>
             </a>
           ))}
         </div>
-        <p className="mt-10 text-center text-sm/6 text-gray-600">&copy; 2024 American Specialized Textiles S.A. de C.V. Todos los derechos reservados.</p>
+
+        <p className="mt-10 text-center text-sm/6 text-gray-600">&copy; 2024 American Specialized Textiles S.A. de C.V.
+          Todos los derechos reservados.</p>
       </div>
     </footer>
   )

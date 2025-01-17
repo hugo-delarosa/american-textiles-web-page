@@ -96,6 +96,16 @@ export type CatalogCategory = {
 export type Catalog = {
   title: string;
   view_category: string;
+  cta: {
+    title: string;
+    text: string;
+    button_text: string;
+    href: string;
+    image: {
+      src: string;
+      alt: string;
+    }
+  }
   image: {
     src: string;
     alt: string;

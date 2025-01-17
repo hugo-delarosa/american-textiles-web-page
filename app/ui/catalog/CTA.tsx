@@ -1,6 +1,17 @@
 import Image from "next/image";
+import Link from "next/link";
 
-export default function CTA()
+export default function CTA(props:{
+  title: string;
+  text: string;
+  image: {
+    alt: string;
+    src: string;
+  }
+  button_text: string;
+  href: string;
+
+})
 {
   return (
     <section aria-labelledby="cause-heading" className="my-7">
@@ -9,27 +20,25 @@ export default function CTA()
           <Image
             width={1920}
             height={1080}
-            alt=""
-            src="https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/CTA/CTA_image_3.jpg"
+            alt={props.image.alt}
+            src={props.image.src}
             className="size-full object-cover"
           />
         </div>
         <div aria-hidden="true" className="absolute inset-0 bg-gray-900/50"/>
         <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
           <h2 id="cause-heading" className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Long-term thinking
+            {props.title}
           </h2>
           <p className="mt-3 text-xl text-white">
-            We are committed to responsible, sustainable, and ethical manufacturing. Our small-scale approach allows
-            us to focus on quality and reduce our impact. We are doing our best to delay the inevitable heat-death of
-            the universe.
+            {props.text}
           </p>
-          <a
-            href="#"
+          <Link
+            href={props.href}
             className="mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
           >
-            Read our story
-          </a>
+            {props.button_text}
+          </Link>
         </div>
       </div>
     </section>
