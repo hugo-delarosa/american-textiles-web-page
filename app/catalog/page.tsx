@@ -1,7 +1,6 @@
 import Hero from "@/app/ui/catalog/Hero";
 import CTA from "@/app/ui/catalog/CTA";
 import Feature from "@/app/ui/catalog/Feature";
-import Footer from "@/app/ui/general/footer";
 import { fetchCatalogPage} from "@/app/lib/data";
 
 export default async function Catalog() {
@@ -20,7 +19,6 @@ export default async function Catalog() {
           }
         )}
       </div>
-      <Footer/>
     </div>
   );
 }
