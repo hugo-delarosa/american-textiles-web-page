@@ -72,7 +72,7 @@ export async function fetchCatalogPage(): Promise<Catalog> {
   const technical_category = await fetchCatalog('technical');
   const technical_products = technical_category.products.sort(function () {
     return (Math.random() - 0.5) * 2;
-  });
+  }).slice(3,9);
 
   const trending_products: Record<string, Product[]> = {
     auto: auto_products,

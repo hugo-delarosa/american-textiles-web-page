@@ -1,8 +1,3 @@
-const stats = [
-  { label: 'Transactions every 24 hours', value: '44 million' },
-  { label: 'Assets under holding', value: '$119 trillion' },
-  { label: 'New users annually', value: '46,000' },
-]
 export default function Mission(props: {
   mission:{
     title: string,
@@ -26,16 +21,6 @@ export default function Mission(props: {
             <p className="text-xl/8 text-gray-600 mt-6">
               {props.vision.text}
             </p>
-          </div>
-          <div className="lg:flex lg:flex-auto lg:justify-center">
-            <dl className="w-64 space-y-8 xl:w-80">
-              {stats.map((stat) => (
-                <div key={stat.label} className="flex flex-col-reverse gap-y-4">
-                  <dt className="text-base/7 text-gray-600">{stat.label}</dt>
-                  <dd className="text-5xl font-semibold tracking-tight text-gray-900">{stat.value}</dd>
-                </div>
-              ))}
-            </dl>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
     "email": "ventas@ameritex.com.mx",
     "phone": "+52 55 5699 2225",
     "name": "American Specialized Textiles",
-    "address": "Av. Via Morelos 68, Rústica Xalostoc, Benito Juárez Xalostoc, 55340 Ecatepec de Morelos, Méx., México",
+    "address": "Av. Via Morelos 66, Rústica Xalostoc, Xalostoc, 55340 Ecatepec de Morelos, Méx., México",
     "title": "American Specialized Textiles",
     "description": "Nuestra experiencia abarca cuatro sectores: Automotriz, Ropa Deportiva, Lencería y textiles técnicos, ofreciendo soluciones personalizadas para satisfacer las demandas de cada mercado."
   },
@@ -209,7 +209,7 @@
           "id": 1,
           "name": "Headliner",
           "color": "Gris",
-          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "description": "",
           "href": "/catalog/auto/1",
           "image": {
             "alt": "Headliner - Gris",
@@ -248,7 +248,7 @@
           "id": 2,
           "name": "Headliner",
           "color": "Laminado",
-          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "description": "",
           "href": "/catalog/auto/2",
           "image": {
             "alt": "Headliner - Laminado",
@@ -282,7 +282,7 @@
           "id": 3,
           "name": "Asiento",
           "color": "Bamboo",
-          "description": "Tela de asiento de alta calidad, resistente al desgaste y fácil de limpiar. Disponible en una amplia gama de colores y texturas.",
+          "description": "",
           "href": "/catalog/auto/3",
           "image": {
             "alt": "Asiento - Bamboo",
@@ -467,6 +467,206 @@
             }
           ],
           "filter_criteria": ["seat"]
+        },
+        {
+          "id": 8,
+          "name": "Gaelita",
+          "color": "Mole",
+          "description": "",
+          "href": "/catalog/auto/8",
+          "image": {
+            "alt": "Gaelita - Mole",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/gaelita/mole/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Gaelita - Mole",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/gaelita/mole/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Gaelita - Mole",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/gaelita/mole/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Gaelita - Mole",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/gaelita/mole/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Gaelita - Mole",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/gaelita/mole/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Gaelita - Mole",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/gaelita/mole/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Gaelita - Mole",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/gaelita/mole/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["bolster"]
+        },
+        {
+          "id": 9,
+          "name": "Galeana",
+          "color": "Clay",
+          "description": "",
+          "href": "/catalog/auto/9",
+          "image": {
+            "alt": "Galeana - Clay",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/galena/clay/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Galeana - Clay",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/galena/clay/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Galeana - Clay",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/galena/clay/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Galeana - Clay",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/galena/clay/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Galeana - Clay",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/galena/clay/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Galeana - Clay",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/galena/clay/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["bolster"]
+        },
+        {
+          "id": 10,
+          "name": "Onix",
+          "color": "Salvia",
+          "description": "",
+          "href": "/catalog/auto/10",
+          "image": {
+            "alt": "Onix - Salvia",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/salvia/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Onix - Salvia",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/salvia/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Onix - Salvia",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/salvia/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Onix - Salvia",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/salvia/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Onix - Salvia",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/salvia/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Onix - Salvia",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/salvia/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["bolster"]
+        },
+        {
+          "id": 11,
+          "name": "Onix",
+          "color": "Tangerine",
+          "description": "",
+          "href": "/catalog/auto/11",
+          "image": {
+            "alt": "Onix - Tangerine",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/tangerine/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Onix - Tangerine",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/tangerine/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Onix - Tangerine",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/tangerine/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Onix - Tangerine",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/tangerine/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Onix - Tangerine",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/tangerine/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Onix - Tangerine",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/tangerine/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["bolster"]
+        },
+        {
+          "id": 12,
+          "name": "Onix",
+          "color": "Timelapse",
+          "description": "",
+          "href": "/catalog/auto/12",
+          "image": {
+            "alt": "Onix - Timelapse",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/timelapse/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Onix - Timelapse",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/timelapse/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Onix - Timelapse",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/timelapse/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Onix - Timelapse",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/timelapse/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Onix - Timelapse",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/timelapse/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Onix - Timelapse",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/auto/volster/onix/timelapse/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["bolster"]
         }
       ]
     },
@@ -1738,7 +1938,7 @@
               "label": "Forros"
             },
             {
-              "value": "backgrouds",
+              "value": "backgrounds",
               "label": "Fondos"
             }
           ]
@@ -2806,6 +3006,1129 @@
             {
               "name": "Uso",
               "items": ["Ropa Interior","Bies","Forros","Fondos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "name": "Textiles Técnicos",
+      "filters": [
+        {
+          "id": "technology",
+          "name": "Tecnología",
+          "options": [
+            {
+              "value": "circular",
+              "label": "Circular"
+            },
+            {
+              "value": "tricot",
+              "label": "Tricot"
+            }
+          ]
+        },
+        {
+          "id": "use",
+          "name": "Uso",
+          "options": [
+            {
+              "value": "jackets",
+              "label": "Casacas"
+            },
+            {
+              "value": "jerseys",
+              "label": "Jersey"
+            },
+            {
+              "value": "linings",
+              "label": "Forros"
+            },
+            {
+              "value": "t-shirts",
+              "label": "Playeras"
+            },
+            {
+              "value": "basketball-t-shirts",
+              "label": "Playeras de Basketball"
+            },
+            {
+              "value": "home-decor",
+              "label": "Decoración de Hogar"
+            },
+            {
+              "value": "upholstery",
+              "label": "Tapicería"
+            },
+            {
+              "value": "plush",
+              "label": "Peluches"
+            },
+            {
+              "value": "industrial",
+              "label": "Industrial"
+            },
+            {
+              "value": "automotive",
+              "label": "Automotriz"
+            },
+            {
+              "value": "uniforms",
+              "label": "Uniformes"
+            },
+            {
+              "value": "safety-vest",
+              "label": "Chaleco Seguridad"
+            },
+            {
+              "value": "high-jacket",
+              "label": "Chamarra Alta Visibilidad"
+            },
+            {
+              "value": "windbreaker",
+              "label": "Rompevientos"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "id": 1,
+          "name": "Cal Tex 112",
+          "color": "Amarillo",
+          "href": "/catalog/technical/1",
+          "image": {
+            "alt": "Cal Tex 112 - Yellow",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/yellow/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Cal Tex 112 - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/yellow/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Cal Tex 112 - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/yellow/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Cal Tex 112 - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/yellow/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Cal Tex 112 - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/yellow/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "jackets", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Casacas","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Cal Tex 112",
+          "color": "Blanco",
+          "href": "/catalog/technical/2",
+          "image": {
+            "alt": "Cal Tex 112 - White",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/white/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Cal Tex 112 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/white/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Cal Tex 112 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/white/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Cal Tex 112 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/white/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Cal Tex 112 - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/white/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "jackets", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Casacas","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Cal Tex 112",
+          "color": "Gris",
+          "href": "/catalog/technical/3",
+          "image": {
+            "alt": "Cal Tex 112 - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Cal Tex 112 - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Cal Tex 112 - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Cal Tex 112 - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Cal Tex 112 - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/grey/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "jackets", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Casacas","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Cal Tex 112",
+          "color": "Naranja",
+          "href": "/catalog/technical/4",
+          "image": {
+            "alt": "Cal Tex 112 - Orange",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/orange/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Cal Tex 112 - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/orange/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Cal Tex 112 - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/orange/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Cal Tex 112 - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/orange/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Cal Tex 112 - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/orange/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "jackets", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Casacas","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Cal Tex 112",
+          "color": "Verde",
+          "href": "/catalog/technical/5",
+          "image": {
+            "alt": "Cal Tex 112 - Green",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/green/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Cal Tex 112 - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/green/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Cal Tex 112 - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/green/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Cal Tex 112 - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/green/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Cal Tex 112 - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-tex/green/image_4.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "jackets", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Casacas","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Calado Milenio",
+          "color": "Azul",
+          "href": "/catalog/technical/6",
+          "image": {
+            "alt": "Calado Milenio - Blue",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Calado Milenio - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Calado Milenio - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Calado Milenio - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Calado Milenio - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/blue/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Calado Milenio - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/blue/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "basketball-t-shirts", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Playeras de basquetbol","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Calado Milenio",
+          "color": "Blanco",
+          "href": "/catalog/technical/7",
+          "image": {
+            "alt": "Calado Milenio - White",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/white/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Calado Milenio - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/white/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Calado Milenio - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/white/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Calado Milenio - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/white/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Calado Milenio - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/white/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Calado Milenio - White",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/white/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "basketball-t-shirts", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Playeras de basquetbol","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Calado Milenio",
+          "color": "Gris",
+          "href": "/catalog/technical/8",
+          "image": {
+            "alt": "Calado Milenio - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Calado Milenio - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Calado Milenio - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Calado Milenio - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Calado Milenio - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Calado Milenio - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/grey/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "basketball-t-shirts", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Playeras de basquetbol","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Calado Milenio",
+          "color": "Rojo",
+          "href": "/catalog/technical/9",
+          "image": {
+            "alt": "Calado Milenio - Red",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Calado Milenio - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Calado Milenio - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Calado Milenio - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Calado Milenio - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Calado Milenio - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/cal-milenio/red/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "linings", "basketball-t-shirts", "t-shirts", "jerseys"],
+          "description": "Calado perfecto para prendas frescas y ligeras, ideal para aplicaciones, forros, casacas, playeras, jersey; apta para sublimar y estampar contamos con gama de colores fluorescentes como verde y naranja.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Forros","Playeras de basquetbol","Playeras","Jersey"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Angora",
+          "color": "Azul",
+          "href": "/catalog/technical/10",
+          "image": {
+            "alt": "Angora - Blue",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/blue/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Angora - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/blue/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Angora - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/blue/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Angora - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/blue/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Angora - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/blue/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Angora - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/blue/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Angora - Blue",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/blue/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "home-decor", "upholstery", "plush", "industrial", "automotive"],
+          "description": "Tela suave, resistente y ligera es la opción perfecta para la tapicería automotriz, creación de peluches y productos industriales",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Decoración de Hogar","Tapicería","Peluches","Industrial","Automotriz"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Angora",
+          "color": "Gris",
+          "href": "/catalog/technical/11",
+          "image": {
+            "alt": "Angora - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Angora - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Angora - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Angora - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Angora - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Angora - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/grey/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Angora - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/grey/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "home-decor", "upholstery", "plush", "industrial", "automotive"],
+          "description": "Tela suave, resistente y ligera es la opción perfecta para la tapicería automotriz, creación de peluches y productos industriales",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Decoración de Hogar","Tapicería","Peluches","Industrial","Automotriz"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Angora",
+          "color": "Magenta",
+          "href": "/catalog/technical/12",
+          "image": {
+            "alt": "Angora - Magenta",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/magenta/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Angora - Magenta",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/magenta/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Angora - Magenta",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/magenta/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Angora - Magenta",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/magenta/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Angora - Magenta",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/magenta/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Angora - Magenta",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/magenta/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Angora - Magenta",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/magenta/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "home-decor", "upholstery", "plush", "industrial", "automotive"],
+          "description": "Tela suave, resistente y ligera es la opción perfecta para la tapicería automotriz, creación de peluches y productos industriales",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Decoración de Hogar","Tapicería","Peluches","Industrial","Automotriz"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Angora",
+          "color": "Naranja",
+          "href": "/catalog/technical/13",
+          "image": {
+            "alt": "Angora - Orange",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/orange/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Angora - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/orange/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Angora - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/orange/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Angora - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/orange/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Angora - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/orange/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Angora - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/orange/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Angora - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/orange/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "home-decor", "upholstery", "plush", "industrial", "automotive"],
+          "description": "Tela suave, resistente y ligera es la opción perfecta para la tapicería automotriz, creación de peluches y productos industriales",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Decoración de Hogar","Tapicería","Peluches","Industrial","Automotriz"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Angora",
+          "color": "Negro",
+          "href": "/catalog/technical/14",
+          "image": {
+            "alt": "Angora - Black",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/black/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Angora - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/black/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Angora - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/black/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Angora - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/black/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Angora - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/black/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Angora - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/black/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Angora - Black",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/black/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "home-decor", "upholstery", "plush", "industrial", "automotive"],
+          "description": "Tela suave, resistente y ligera es la opción perfecta para la tapicería automotriz, creación de peluches y productos industriales",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Decoración de Hogar","Tapicería","Peluches","Industrial","Automotriz"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Angora",
+          "color": "Rojo",
+          "href": "/catalog/technical/15",
+          "image": {
+            "alt": "Angora - Red",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/red/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Angora - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/red/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Angora - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/red/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Angora - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/red/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Angora - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/red/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Angora - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/red/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Angora - Red",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/red/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "home-decor", "upholstery", "plush", "industrial", "automotive"],
+          "description": "Tela suave, resistente y ligera es la opción perfecta para la tapicería automotriz, creación de peluches y productos industriales",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Decoración de Hogar","Tapicería","Peluches","Industrial","Automotriz"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Angora",
+          "color": "Verde",
+          "href": "/catalog/technical/16",
+          "image": {
+            "alt": "Angora - Green",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/green/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Angora - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/green/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Angora - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/green/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Angora - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/green/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Angora - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/green/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Angora - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/green/image_5.jpg"
+            },
+            {
+              "id": 6,
+              "alt": "Angora - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/angora/green/image_6.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "home-decor", "upholstery", "plush", "industrial", "automotive"],
+          "description": "Tela suave, resistente y ligera es la opción perfecta para la tapicería automotriz, creación de peluches y productos industriales",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Decoración de Hogar","Tapicería","Peluches","Industrial","Automotriz"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Modavek",
+          "color": "Amarillo",
+          "href": "/catalog/technical/17",
+          "image": {
+            "alt": "Modavek - Yellow",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/yellow/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Modavek - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/yellow/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Modavek - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/yellow/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Modavek - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/yellow/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Modavek - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/yellow/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Modavek - Yellow",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/yellow/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "safety-vest", "jackets", "uniforms", "high-jacket", "windbreaker"],
+          "description": "Tela neón de alta visibilidad, ideal para prendas de protección en el sector industrial y deportivo, utilizada en chalecos de seguridad, chamarras, rompevientos, casacas y uniformes.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chalecos Seguridad", "Casacas", "Uniformes", "Chamarra Alta Visibilidad", "Rompevientos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Modavek",
+          "color": "Gris",
+          "href": "/catalog/technical/18",
+          "image": {
+            "alt": "Modavek - Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Modavek - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Modavek - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Modavek - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Modavek - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Modavek - Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/grey/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "safety-vest", "jackets", "uniforms", "high-jacket", "windbreaker"],
+          "description": "Tela neón de alta visibilidad, ideal para prendas de protección en el sector industrial y deportivo, utilizada en chalecos de seguridad, chamarras, rompevientos, casacas y uniformes.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chalecos Seguridad", "Casacas", "Uniformes", "Chamarra Alta Visibilidad", "Rompevientos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Modavek",
+          "color": "Gris Claro",
+          "href": "/catalog/technical/19",
+          "image": {
+            "alt": "Modavek - Light Grey",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/light-grey/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Modavek - Light Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/light-grey/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Modavek - Light Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/light-grey/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Modavek - Light Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/light-grey/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Modavek - Light Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/light-grey/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Modavek - Light Grey",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/light-grey/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "safety-vest", "jackets", "uniforms", "high-jacket", "windbreaker"],
+          "description": "Tela neón de alta visibilidad, ideal para prendas de protección en el sector industrial y deportivo, utilizada en chalecos de seguridad, chamarras, rompevientos, casacas y uniformes.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chalecos Seguridad", "Casacas", "Uniformes", "Chamarra Alta Visibilidad", "Rompevientos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Modavek",
+          "color": "Naranja",
+          "href": "/catalog/technical/20",
+          "image": {
+            "alt": "Modavek - Orange",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/orange/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Modavek - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/orange/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Modavek - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/orange/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Modavek - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/orange/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Modavek - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/orange/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Modavek - Orange",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/orange/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "safety-vest", "jackets", "uniforms", "high-jacket", "windbreaker"],
+          "description": "Tela neón de alta visibilidad, ideal para prendas de protección en el sector industrial y deportivo, utilizada en chalecos de seguridad, chamarras, rompevientos, casacas y uniformes.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chalecos Seguridad", "Casacas", "Uniformes", "Chamarra Alta Visibilidad", "Rompevientos"]
+            },
+            {
+              "name": "Tecnología",
+              "items": ["Tricot"]
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Modavek",
+          "color": "Verde",
+          "href": "/catalog/technical/21",
+          "image": {
+            "alt": "Modavek - Green",
+            "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/green/image_1.jpg"
+          },
+          "images": [
+            {
+              "id": 1,
+              "alt": "Modavek - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/green/image_1.jpg"
+            },
+            {
+              "id": 2,
+              "alt": "Modavek - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/green/image_2.jpg"
+            },
+            {
+              "id": 3,
+              "alt": "Modavek - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/green/image_3.jpg"
+            },
+            {
+              "id": 4,
+              "alt": "Modavek - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/green/image_4.jpg"
+            },
+            {
+              "id": 5,
+              "alt": "Modavek - Green",
+              "src": "https://american-textiles.sfo3.cdn.digitaloceanspaces.com/catalog/industrial/modavek/green/image_5.jpg"
+            }
+          ],
+          "filter_criteria": ["tricot", "safety-vest", "jackets", "uniforms", "high-jacket", "windbreaker"],
+          "description": "Tela neón de alta visibilidad, ideal para prendas de protección en el sector industrial y deportivo, utilizada en chalecos de seguridad, chamarras, rompevientos, casacas y uniformes.",
+          "details": [
+            {
+              "name": "Uso",
+              "items": ["Chalecos Seguridad", "Casacas", "Uniformes", "Chamarra Alta Visibilidad", "Rompevientos"]
             },
             {
               "name": "Tecnología",
